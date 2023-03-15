@@ -7,7 +7,7 @@ import { IoLogoLinkedin , IoLogoGithub} from "react-icons/io";
 const Presentacion = () => {
 
     const handleClickMail = () => {
-        window.open("franandrade15994@gmail.com")
+        window.open("")
     }
 
     const handleClickWhatsapp = () => {
@@ -42,15 +42,15 @@ const Presentacion = () => {
             <button className="GetInTouch">Get In Touch</button>
 
             <div className="redes">
-                <Link to={handleClickWhatsapp}>
+                <Link onClick={handleClickWhatsapp}>
                     <IoLogoWhatsapp className="icon-contact"/>
                 </Link>
 
-                <Link to={handleClickLinkedIn}>
+                <Link onClick={handleClickLinkedIn}>
                     <IoLogoLinkedin className="icon-contact"/>
                 </Link>
 
-                <Link to={handleClickGitHub}>
+                <Link onClick={handleClickGitHub}>
                     <IoLogoGithub className="icon-contact"/>
                 </Link>
 
