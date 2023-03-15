@@ -42,13 +42,9 @@ const Presentacion = () => {
                 </div>
             </div>
                       
-            <div className="Image-Container">
-                <img className="Image-Profile" alt="" src={img}/>
-            </div>
-
             <button className="GetInTouch">Get In Touch</button>
 
-            <div className="redes">
+            <footer className="redes">
                 <Link onClick={handleClickWhatsapp}>
                     <IoLogoWhatsapp className="icon-contact"/>
                 </Link>
@@ -64,7 +60,7 @@ const Presentacion = () => {
                 <Link onClick={handleClickMail}>
                     <IoLogoGoogle className="icon-contact"/>
                 </Link>
-            </div>
+            </footer>
         </div>
     )
 };

@@ -1,8 +1,8 @@
 .Portfolio-Container{
     background-color: rgba(255, 255, 255, 0);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
 .Welcome{
@@ -17,15 +17,16 @@
 }
 
 .Presentacion-Container{
-    margin-top: 4%;
+    margin-top: 10%;
     padding: 1%;
     backdrop-filter: blur(1rem);
-    width: 70%;
+    width: 100%;
 }
 
 .presentacion{
     margin-top: 1%;
-    color: white;
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
 }
 
 .Name{
@@ -36,38 +37,17 @@
 .Info{
     color: white;
     margin-top: 2%;
+    margin-left: 5%;
     text-align: justify;
     margin-right: 8%;
-}
-
-.Image-Container{
-    background-color: rgb(255, 187, 0);
-    position: absolute;
-    margin-left: auto;
-    margin-right: 3%;
-    right: 0;
-    left: 0;
-    top: 11%;
-    width:25%;
-    height: 15%;
-    border-radius: 50%;    
-}
-
-.Image-Profile{
-   
-    width: 100%;
-    height:100%;
-    background-color: rgb(255, 187, 0);
-    padding: 1%;
-    border-radius: 50%;
-    margin-left: 0;
+    margin-bottom: 4%;
 }
 
 .GetInTouch{
     color: white;
     background-image: linear-gradient(to left, #8848ff, #86417f);
     padding: 1% 2%;
-    margin-top: 3%;
+    margin-top: 10%;
     border: none;
     text-align: center;
     border-radius: 50px;
@@ -76,7 +56,7 @@
 }
 
 .redes{
-    margin-top: 4%;
+    margin-top: 10%;
     margin-left: .7%;
 }
 
@@ -86,23 +66,42 @@
 }
 
 @media (min-width: 790px) {
+
+    .Portfolio-Container{
+        background-color: rgba(255, 255, 255, 0);
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
     .Presentacion-Container{
+        margin-top: 4%;
         padding: 2%;
         backdrop-filter: blur(1rem);
-        width: 60%;
+        width: 90%;
     }
 
     .presentacion{
-        margin-top: 1%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        color: rgb(255, 255, 255);
+        font-size: 54px;
+    }
+    
+    .GetInTouch{
         color: white;
-        font-size: 45px;
+        background-image: linear-gradient(to left, #8848ff, #86417f);
+        padding: 1% 2%;
+        margin-top: 4%;
+        border: none;
+        text-align: center;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: bold;
     }
 
-    .Image-Container {
-        margin-right: 5%;
-        width: 30%;
-        height: 60%;
-        top: 23%;
+    .redes{
+        margin-top: 4%;
+        margin-left: .7%;
     }
-        
 }
