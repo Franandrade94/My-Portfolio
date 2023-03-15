@@ -44,12 +44,12 @@
     background-color: rgb(255, 187, 0);
     position: absolute;
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 3%;
     right: 0;
     left: 0;
-    top: 10%;
-    width:30%;
-    height: 20%;
+    top: 11%;
+    width:25%;
+    height: 15%;
     border-radius: 50%;    
 }
 
@@ -99,6 +99,7 @@
     }
 
     .Image-Container {
+        margin-right: 5%;
         width: 30%;
         height: 60%;
         top: 23%;
