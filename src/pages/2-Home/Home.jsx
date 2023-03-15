@@ -5,7 +5,7 @@ import SideBar from "../../components/1-Nav/SideBar";
 const  Home = () => {
 
     return(
-        <div>
+        <div className="Home">
             <SideBar/>
         </div>
     )
