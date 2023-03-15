@@ -35,9 +35,9 @@ const Presentacion = () => {
                 </div>
                 <div>
                     <p className="Info">
-                        Front-end design-oriented and visual material creation.
+                        Front-end design-oriented and visual material creation since 2022.
                         <br/>
-                        I have always been intrigued by the world of programming, but I had never been motivated to take the plunge until after the pandemic, when I began to delve into this world through Python and web developer courses.
+                        | Javascript | Front -end | React | Redux | HTML | CSS | Back-end | Node.Js | Sequelize | SQL | Express | Git
                     </p>   
                 </div>
             </div>
