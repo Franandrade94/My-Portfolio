@@ -1,7 +1,7 @@
 import "./nav.css";
 import React, { useState } from "react";
 import styled from "styled-components";
-import BurgerButtonNav from "./BurgerButton/BurgerButton";
+import BurgerButtonNav from "./BurgeButton/BurgerButton";
 import { animateScroll as scroll } from "react-scroll";
 import { Link } from "react-router-dom";
 
