@@ -3,6 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoLogoWhatsapp, IoLogoGoogle } from "react-icons/io5";
 import { IoLogoLinkedin , IoLogoGithub} from "react-icons/io";
+import img  from "../../assets/images/Fran1-removebg.png";
+
 
 const Presentacion = () => {
 
@@ -39,6 +41,12 @@ const Presentacion = () => {
                     </p>   
                 </div>
             </div>
+            { ( window.innerWidth >= 790 ) && (           
+                <div className="Image-Container">
+                    <img className="Image-Profile" alt="" src={img}/>
+                </div>
+            )
+            }
             <button className="GetInTouch">Get In Touch</button>
 
             <div className="redes">
