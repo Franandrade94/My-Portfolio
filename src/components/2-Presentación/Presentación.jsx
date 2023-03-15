@@ -41,12 +41,11 @@ const Presentacion = () => {
                     </p>   
                 </div>
             </div>
-            { ( window.innerWidth >= 790 ) && (           
-                <div className="Image-Container">
-                    <img className="Image-Profile" alt="" src={img}/>
-                </div>
-            )
-            }
+                      
+            <div className="Image-Container">
+                <img className="Image-Profile" alt="" src={img}/>
+            </div>
+
             <button className="GetInTouch">Get In Touch</button>
 
             <div className="redes">
