@@ -1,12 +1,12 @@
 import "./home.css";
 import React from "react";
-import SideBar from "../../components/1-Nav/SideBar";
+import Nav from "../../components/1-Nav/Nav-1/Nav";
 
 const  Home = () => {
 
     return(
         <div className="Home">
-            <SideBar/>
+            <Nav/>
         </div>
     )
 }
