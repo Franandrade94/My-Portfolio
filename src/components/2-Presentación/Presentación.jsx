@@ -23,7 +23,7 @@ const Presentacion = () => {
 
     return(
         <div className="Portfolio-Container">
-            <button className="Welcome">Welcome to My Portfolio</button>
+            {/* <button className="Welcome">Welcome to My Portfolio</button> */}
             <div className="Presentacion-Container">
                 <div>
                     <h1 className="presentacion">Hi! I'm <p className="Name">Francisco Andrade</p> <br/>FullStack Developer</h1>
