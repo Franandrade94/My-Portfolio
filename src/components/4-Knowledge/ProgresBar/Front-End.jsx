@@ -1,7 +1,7 @@
 import "./progresbar.css";
 import React from "react";
 
-const ProgressBar = () => {
+const FrontEnd = () => {
     return(
         <div className="ProgressBar">
         <div className="ProgresBar-Container">
@@ -36,19 +36,10 @@ const ProgressBar = () => {
             </div>
 
             <div className="skill-box">
-                <span className="Skill-Title">React</span>
+                <span className="Skill-Title">React-Redux</span>
                 <div className="skill-bar">
                     <span className="skill-per react">
-                        <span className="tooltip">61%</span>
-                    </span>
-                </div>
-            </div>
-
-            <div className="skill-box">
-                <span className="Skill-Title">Redux</span>
-                <div className="skill-bar">
-                    <span className="skill-per redux">
-                        <span className="tooltip">70%</span>
+                        <span className="tooltip">64%</span>
                     </span>
                 </div>
             </div>
@@ -58,4 +49,4 @@ const ProgressBar = () => {
     )
 };
 
-export default ProgressBar;
+export default FrontEnd;

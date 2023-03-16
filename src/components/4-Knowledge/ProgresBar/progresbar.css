@@ -69,29 +69,49 @@
     opacity: 0;
 }
 
+
+/*----------FRONT-END----------*/
+
 .skill-per.html {
     width: 75%;
-    animation-delay: 0.1s;
+    animation-delay: 0.5s;
 }
 
 .skill-per.css {
     width: 70%;
-    animation-delay: 0.2s;
+    animation-delay: 0.6s;
 }
 
 .skill-per.javascript {
     width: 65%;
-    animation-delay: 0.3s;
+    animation-delay: 0.7s;
 }
 
 .skill-per.react {
-    width: 61%;
-    animation-delay: 0.4s;
+    width: 64%;
+    animation-delay: 0.8s;
 }
 
-.skill-per.redux {
-    width: 70%;
+/*----------BACK-END----------*/
+
+.skill-per.node {
+    width: 57%;
     animation-delay: 0.5s;
+}
+
+.skill-per.sequelize {
+    width: 55%;
+    animation-delay: 0.6s;
+}
+
+.skill-per.sql {
+    width: 61%;
+    animation-delay: 0.7s;
+}
+
+.skill-per.express {
+    width: 58%;
+    animation-delay: 0.8s;
 }
 
 @keyframes progress {

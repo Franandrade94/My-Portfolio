@@ -1,6 +1,7 @@
 import "./knowledge.css";
 import React from "react";
-import ProgressBar from "./ProgresBar/ProgresBar";
+import FrontEnd from "./ProgresBar/Front-End";
+import BackEnd from "./ProgresBar/Back-End";
 
 const Knowledge = () => {
     return(
@@ -10,8 +11,9 @@ const Knowledge = () => {
                     <h2 id="Knowledge">My Knowledge</h2>
                 </div>
 
-                <div>
-                    <ProgressBar/>
+                <div className="Process-Bars">
+                    <FrontEnd/>
+                    <BackEnd/>
                 </div>
 
             </div>
