@@ -2,7 +2,7 @@
     background-color: rgba(255, 255, 255, 0);
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .Welcome{
@@ -17,14 +17,15 @@
 }
 
 .Presentacion-Container{
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 1%;
     backdrop-filter: blur(1rem);
     width: 100%;
 }
 
 .presentacion{
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 2%;
     color: rgb(255, 255, 255);
 }
@@ -36,17 +37,17 @@
 
 .Info{
     color: white;
-    margin-top: 2%;
-    text-align: justify;
+    margin-top: 5%;
+    text-align: center;
     margin-right: 8%;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 
 .GetInTouch{
     color: white;
     background-image: linear-gradient(to left, #8848ff, #86417f);
     padding: 1% 2%;
-    margin-top: 10%;
+    margin-top: 5%;
     border: none;
     text-align: center;
     border-radius: 50px;
@@ -70,7 +71,7 @@
         background-color: rgba(255, 255, 255, 0);
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 4%;
+        margin-top: 3%;
     }
 
     .Presentacion-Container{
@@ -102,5 +103,14 @@
     .redes{
         margin-top: 4%;
         margin-left: .7%;
+    }
+
+    .Info{
+        color: white;
+        margin-top: 3%;
+        text-align: justify;
+        margin-right: 8%;
+        margin-bottom: 4%;
+        margin-left: 2%;
     }
 }

@@ -29,11 +29,25 @@ const Presentacion = () => {
                     <h1 className="presentacion">Hi! I'm <p className="Name">Francisco Andrade</p> <br/>FullStack Developer</h1>
                 </div>
                 <div>
+                    { window.innerWidth <= 790 ? 
+                        (<p className="Info">
+                            Front-end design-oriented and visual material creation since 2022.
+                            <br/><br/>
+                            | Javascript | Front -end | React |
+                            <br/>
+                            | Redux | HTML | CSS | 
+                            <br/>
+                            | Back-end | Node.Js | Sequelize | 
+                            <br/>
+                            | SQL | Express | Git
+                    </p>) : (
                     <p className="Info">
                         Front-end design-oriented and visual material creation since 2022.
-                        <br/>
+                        <br/><br/>
                         | Javascript | Front -end | React | Redux | HTML | CSS | Back-end | Node.Js | Sequelize | SQL | Express | Git
-                    </p>   
+                    </p>
+                    )
+                    }   
                 </div>
             </div>
                       
