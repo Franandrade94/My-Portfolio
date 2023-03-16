@@ -51,7 +51,7 @@ const Presentacion = () => {
                 </div>
             </div>
                       
-            <button className="GetInTouch">Get In Touch</button>
+            <button className="GetInTouch" onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>Get In Touch</button>
 
             <footer className="redes">
                 <Link onClick={handleClickWhatsapp}>

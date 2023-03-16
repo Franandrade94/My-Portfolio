@@ -55,6 +55,11 @@
     font-weight: bold;
 }
 
+.GetInTouch:hover {
+    color: rgb(224, 224, 224);
+    background-image: linear-gradient(to left, rgb(106, 56, 199), rgb(97, 47, 92));
+}
+
 .redes{
     margin-top: 10%;
     margin-left: .7%;
