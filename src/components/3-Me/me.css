@@ -27,10 +27,17 @@ text-align: center;
     font-size: 16px;
 }
 
+.Personal-Info-Container{
+    width: 100%;
+    height: 100%;
+}
+
 .Personal-Info{
     margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
+    height: auto;
     text-align: center;
 }
 
@@ -40,13 +47,12 @@ text-align: center;
 }
 
 .Personal-Button{
-    display: grid;
+    display: inline-grid;
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10%; 
-    
+    grid-gap: 10%;   
 }
 
 .Personal-Button button{

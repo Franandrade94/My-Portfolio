@@ -1,5 +1,5 @@
 .Portfolio-Container{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(90, 32, 32, 0);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
@@ -71,7 +71,7 @@
         background-color: rgba(255, 255, 255, 0);
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 3%;
+        margin-top: 4%;
     }
 
     .Presentacion-Container{
@@ -92,7 +92,7 @@
         color: white;
         background-image: linear-gradient(to left, #8848ff, #86417f);
         padding: 1% 2%;
-        margin-top: 4%;
+        margin-top: 3.2%;
         border: none;
         text-align: center;
         border-radius: 50px;
