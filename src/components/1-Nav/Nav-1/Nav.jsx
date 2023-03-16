@@ -166,11 +166,12 @@ const NavBar = styled.nav`
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        padding: 10%;
+        padding: 15%;
         top: 0;
         left: 0;
         right: 0;
         text-align: center;
+        background-color: rgba(110, 110, 110, .350);
         backdrop-filter: blur(1rem);
         height: auto;
         a{
