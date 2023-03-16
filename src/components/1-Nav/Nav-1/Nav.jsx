@@ -166,10 +166,13 @@ const NavBar = styled.nav`
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        top: 10%;
+        padding: 10%;
+        top: 0;
         left: 0;
         right: 0;
         text-align: center;
+        backdrop-filter: blur(1rem);
+        height: auto;
         a{
             font-size: 20px;
             margin-top: 1rem;
@@ -191,7 +194,6 @@ const NavBar = styled.nav`
 const BgDiv = styled.div`
     position: absolute;
     background-color: rgba(110, 110, 110, .350);
-    backdrop-filter: blur(1rem);
     top: -7000%;
     left: -20000%;
     width: 100%;
@@ -200,7 +202,7 @@ const BgDiv = styled.div`
 
     &.active{
         width: 100%;
-        height: 70%;
+        height: auto;
         top: 0;
         left: 0;
     }
