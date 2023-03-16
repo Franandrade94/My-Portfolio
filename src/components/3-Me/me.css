@@ -52,7 +52,7 @@ text-align: center;
     width: 100%;
     margin-top: 5%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: ;
     margin-bottom: 12%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px 0px;   
@@ -83,10 +83,11 @@ text-align: center;
 @media (min-width: 790px) {
     .Me-Container{
         width: 100%;
-        height: 110vh;
-        background-color: rgb(39, 45, 71);
+        height: auto;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     
     .Me-Info{
@@ -125,8 +126,8 @@ text-align: center;
     .Personal-Button{
         display: grid;
         margin-top: 5%;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: auto;
+        margin-right: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10%; 
         
