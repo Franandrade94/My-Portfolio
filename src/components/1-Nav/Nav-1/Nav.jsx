@@ -171,7 +171,6 @@ const NavBar = styled.nav`
         left: 0;
         right: 0;
         text-align: center;
-        background-color: rgba(110, 110, 110, .350);
         backdrop-filter: blur(1rem);
         height: auto;
         a{
