@@ -6,10 +6,7 @@ import { IoLogoLinkedin , IoLogoGithub} from "react-icons/io";
 
 const Presentacion = () => {
 
-    const handleClickMail = () => {
-        window.open("")
-    }
-
+    
     const handleClickWhatsapp = () => {
         window.open("")
     }

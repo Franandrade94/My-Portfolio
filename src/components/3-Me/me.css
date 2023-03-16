@@ -1,0 +1,147 @@
+.Me-Container{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(39, 45, 71);
+    background-size: cover;
+    background-position: center;
+}
+
+.Me-Info{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Me-Info h2{
+color: rgb(255, 187, 0);
+font-size: 30px;
+text-align: center;
+}
+
+.Me-Info p {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.Personal-Info{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Personal-Info h2{
+    color: rgb(255, 187, 0);
+font-size: 25px;
+}
+
+.Personal-Button{
+    display: grid;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10%; 
+    
+}
+
+.Personal-Button button{
+    border-radius: 100rem;
+    padding: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 187, 0);
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border:  solid 3px transparent;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #8848ff, #86417f);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgb(39, 45, 71) inset;
+}
+
+.Personal-P{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+@media (min-width: 790px) {
+    .Me-Container{
+        width: 100%;
+        height: 110vh;
+        background-color: rgb(39, 45, 71);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .Me-Info{
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .Me-Info h2{
+    color: rgb(255, 187, 0);
+    font-size: 46px;
+    text-align: center;
+    }
+    
+    .Me-Info p {
+        margin-top: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
+    .Personal-Info{
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    
+    .Personal-Info h2{
+        color: rgb(255, 187, 0);
+    font-size: 33px;
+    }
+    
+    .Personal-Button{
+        display: grid;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10%; 
+        
+    }
+    
+    .Personal-Button button{
+        border-radius: 100rem;
+        padding: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 187, 0);
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border:  solid 3px transparent;
+        background-image:  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #8848ff, #86417f);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px rgb(39, 45, 71) inset;
+    }
+    
+    .Personal-P{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: white;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+}
