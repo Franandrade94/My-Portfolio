@@ -119,7 +119,7 @@ export default Nav;
 const NavBar = styled.nav`
     
     padding: .8rem;
-    background-color: rgba(110, 110, 110, 0.208);
+    background-color: rgba(110, 110, 110, 0.250);
     display: flex;
     align-items: center;
 
