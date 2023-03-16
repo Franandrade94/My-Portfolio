@@ -8,38 +8,56 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
 
-  const [ clicked, setClicked ] = useState(false);
+    const [ clicked, setClicked ] = useState(false);
 
-  const handleClick = () => {
+    const handleClick = () => {
       setClicked(!clicked)
-  }
+    }
 
-  const scrollToContacto = () => {
+    const scrollToContacto = () => {
       scroll.scrollTo(document.getElementById("contacto").offsetTop);
     };
   
     const scrollToAboutMe = () => {
         scroll.scrollTo(document.getElementById("aboutme").offsetTop);
-      };
-    ;
+    };
 
-    const handleClickContacto = () => {
-      scrollToContacto();
-      handleClick()
-    }
-
+    const scrollToKnowledge = () => {
+        scroll.scrollTo(document.getElementById("Knowledge").offsetTop);
+    };
+    
     const handleClickAboutMe = () => {
         scrollToAboutMe();
-      }
+    }
 
     const handleClickAboutMe2 = () => {
         scrollToAboutMe();
         handleClick()
-      }
+    }
+
+    const handleClickKnowledge = () => {
+        scrollToKnowledge();
+    }
+
+    const handleClickKnowledge2 = () => {
+        scrollToKnowledge();
+        handleClick()
+    }
+
+
+
+    const handleClickContacto = () => {
+        scrollToContacto();
+    }
+  
+    const handleClickContacto2 = () => {
+          scrollToContacto();
+          handleClick()
+    }
 
 
     return(
-        <>
+        <div>
             <NavBar>
                 <div className={`links ${ clicked ? 'active' : '' }`}>
                     
@@ -50,17 +68,17 @@ const Nav = () => {
 
                         <a onClick={handleClickAboutMe2} >About Me</a>
 
-                        <a onClick={handleClick} href="/project">Projects</a>
+                        <a onClick={handleClickKnowledge2} >Knowledge</a>
 
-                        <a onClick={handleClick} href="/courses">Courses</a>
+                        <a onClick={handleClick} >Projects</a>
 
-                        <a onClick={handleClick} href="/expercience">Experience</a>
+                        <a onClick={handleClick} >Courses</a>
 
-                        <a onClick={handleClick} href="/knowledge">Knowledge</a>
+                        <a onClick={handleClick} >Experience</a>
 
-                        <a onClick={handleClick} href="/hobbies">Hobbies</a>
+                        <a onClick={handleClick} >Hobbies</a>
                         
-                        <Link className="contact" onClick={handleClickContacto}  to="" >
+                        <Link className="contact" onClick={handleClickContacto2}  to="" >
                             <a href="/">Contact</a>
                         </Link>
                     </div>      
@@ -70,18 +88,18 @@ const Nav = () => {
 
                         <a onClick={handleClickAboutMe} >About Me</a>
 
-                        <a href="/projects">Projects</a>
+                        <a onClick={ handleClickKnowledge }>Knowledge</a>
+                        
+                        <a >Projects</a>
 
-                        <a href="/courses">Courses</a>
+                        <a >Courses</a>
 
-                        <a href="/expercience">Experience</a>
+                        <a >Experience</a>
 
-                        <a href="/knowledge">Knowledge</a>
-
-                        <a href="/hobbies">Hobbies</a>
+                        <a >Hobbies</a>
 
                         <Link onClick={handleClickContacto}  to="" >
-                            <a href="/">Contact</a>
+                            <a>Contact</a>
                         </Link>
                       </div>)
                     }
@@ -92,7 +110,7 @@ const Nav = () => {
                 </div> 
                 <BgDiv className={`initial ${ clicked ? 'active' : '' }`}> </BgDiv>
             </NavBar>
-        </>
+        </div>
     )
 };
 
