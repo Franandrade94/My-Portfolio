@@ -1,6 +1,6 @@
 import "./knowledge.css";
 import React from "react";
-import Backend from "./ProgresBar/Back-EndProcessBa";
+import Backend from "./ProgresBar/Back-EndProcessBar";
 import FrontEnd from "./ProgresBar/Front-EndProcessBar";
 
 const Knowledge = () => {
