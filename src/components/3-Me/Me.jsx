@@ -12,7 +12,7 @@ const Me = () => {
         <div>
         <div className="Me-Container">
             <div className="Me-Info">
-                <h2>About Me</h2>
+                <h2 id="aboutme">About Me</h2>
                 
                 <p>
                     Lover of new technologies and continuous learning, I am seeking job opportunities

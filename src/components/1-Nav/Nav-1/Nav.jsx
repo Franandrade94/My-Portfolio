@@ -18,11 +18,24 @@ const Nav = () => {
       scroll.scrollTo(document.getElementById("contacto").offsetTop);
     };
   
+    const scrollToAboutMe = () => {
+        scroll.scrollTo(document.getElementById("aboutme").offsetTop);
+      };
+    ;
+
     const handleClickContacto = () => {
       scrollToContacto();
-      
+      handleClick()
     }
 
+    const handleClickAboutMe = () => {
+        scrollToAboutMe();
+      }
+
+    const handleClickAboutMe2 = () => {
+        scrollToAboutMe();
+        handleClick()
+      }
 
 
     return(
@@ -35,7 +48,7 @@ const Nav = () => {
                     <div> 
                         <a onClick={handleClick} href="/">Home</a>
 
-                        <a onClick={handleClick} href="/resume">Resume</a>
+                        <a onClick={handleClickAboutMe2} >About Me</a>
 
                         <a onClick={handleClick} href="/project">Projects</a>
 
@@ -55,7 +68,7 @@ const Nav = () => {
                     <div>
                         <a href="/">Home</a>
 
-                        <a href="/resume">Resume</a>
+                        <a onClick={handleClickAboutMe} >About Me</a>
 
                         <a href="/projects">Projects</a>
 
