@@ -1,7 +1,7 @@
 .Portfolio-Container{
     background-color: rgba(255, 255, 255, 0);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10%;
 }
 
@@ -70,14 +70,14 @@
         background-color: rgba(255, 255, 255, 0);
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 5%;
+        margin-top: 4%;
     }
 
     .Presentacion-Container{
         margin-top: 4%;
         padding: 2%;
         backdrop-filter: blur(1rem);
-        width: 90%;
+        width: 100%;
     }
 
     .presentacion{
