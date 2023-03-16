@@ -1,7 +1,7 @@
 import "./knowledge.css";
 import React from "react";
-import FrontEnd from "./ProgresBar/Front-End";
-import BackEnd from "./ProgresBar/Back-End";
+import Backend from "./ProgresBar/Back-EndProcessBa";
+import FrontEnd from "./ProgresBar/Front-EndProcessBar";
 
 const Knowledge = () => {
     return(
@@ -13,7 +13,7 @@ const Knowledge = () => {
 
                 <div className="Process-Bars">
                     <FrontEnd/>
-                    <BackEnd/>
+                    <Backend/>
                 </div>
 
             </div>

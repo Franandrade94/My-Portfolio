@@ -200,7 +200,7 @@ const BgDiv = styled.div`
 
     &.active{
         width: 100%;
-        height: auto;
+        height: 70%;
         top: 0;
         left: 0;
     }

@@ -1,7 +1,7 @@
 import "./progresbar.css";
 import React from "react";
 
-const BackEnd = () => {
+const BackEndProcessBar = () => {
     return(
         <div className="ProgressBar">
         <div className="ProgresBar-Container">
@@ -49,4 +49,4 @@ const BackEnd = () => {
     )
 };
 
-export default BackEnd;
+export default BackEndProcessBar;
