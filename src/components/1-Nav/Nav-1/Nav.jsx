@@ -166,7 +166,7 @@ const NavBar = styled.nav`
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        padding: 15%;
+        padding: 20%;
         top: 0;
         left: 0;
         right: 0;
