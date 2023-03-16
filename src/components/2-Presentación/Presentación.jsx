@@ -3,8 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoLogoWhatsapp, IoLogoGoogle } from "react-icons/io5";
 import { IoLogoLinkedin , IoLogoGithub} from "react-icons/io";
-import img  from "../../assets/images/Fran1-removebg.png";
-
 
 const Presentacion = () => {
 
@@ -57,7 +55,7 @@ const Presentacion = () => {
                     <IoLogoGithub className="icon-contact"/>
                 </Link>
 
-                <Link onClick={handleClickMail}>
+                <Link onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>
                     <IoLogoGoogle className="icon-contact"/>
                 </Link>
             </footer>
