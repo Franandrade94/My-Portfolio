@@ -1,0 +1,30 @@
+.Front-title{
+    text-align: center;
+    color: rgb(255, 187, 0);
+    font-size: 25px;
+}
+
+.Front-Container{
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%; 
+}
+
+.Front-Knowledge{
+    text-align: center;
+}
+
+.Front-Knowledge p{
+    color: white;
+    font-size: 15px;
+}
+
+.icon{
+    color: rgb(255, 187, 0);
+    font-size: 40px;
+}

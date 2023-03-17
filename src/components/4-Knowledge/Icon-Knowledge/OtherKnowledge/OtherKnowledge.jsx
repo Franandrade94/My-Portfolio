@@ -1,11 +1,12 @@
-import "./back-end.css";
+import "./otherknowledge.css";
 import React from "react";
+import { IoLogoReact,IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
 import { IoLogoNodejs } from "react-icons/io";
-import { SiSequelize, SiPostgresql, SiExpress} from "react-icons/si";
+import { SiSequelize } from "react-icons/si";
 
 
 
-const BackEnd = () => {
+const OtherKnowledge = () => {
     return(
         <div className="Back-End-Icons">
             <div>
@@ -24,12 +25,12 @@ const BackEnd = () => {
                     </div>
 
                     <div className="Back-Knowledge">
-                        <SiPostgresql className="Back-icon"/>
+                        <IoLogoJavascript className="Back-icon"/>
                         <p>SQL</p>
                     </div>
 
                     <div className="Back-Knowledge">
-                        <SiExpress className="Back-icon"/>
+                        <IoLogoReact className="Back-icon"/>
                         <p>Express</p>
                     </div>
 
@@ -39,5 +40,5 @@ const BackEnd = () => {
     )
 };
 
-export default BackEnd;
+export default OtherKnowledge;
 
