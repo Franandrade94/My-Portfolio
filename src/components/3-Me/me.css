@@ -72,6 +72,10 @@ text-align: center;
     box-shadow: 2px 1000px 1px rgb(39, 45, 71) inset;
 }
 
+.Name-P{
+    margin-top: 3%;
+}
+
 .Personal-P{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -120,7 +124,7 @@ text-align: center;
     
     .Personal-Info h2{
         color: rgb(255, 187, 0);
-        font-size: 33px;
+    font-size: 33px;
     }
     
     .Personal-Button{
@@ -145,6 +149,10 @@ text-align: center;
         background-origin: border-box;
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px rgb(39, 45, 71) inset;
+    }
+
+    .Name-P{
+        margin-top: 3%;
     }
     
     .Personal-P{

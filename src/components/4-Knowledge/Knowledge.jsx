@@ -2,6 +2,8 @@ import "./knowledge.css";
 import React from "react";
 import FrontEnd from "./Icon-Knowledge/Front-end/Front-end";
 import BackEnd from "./Icon-Knowledge/Back-end/Back-end";
+import OtherKnowledge from "./Icon-Knowledge/OtherKnowledge/OtherKnowledge";
+
 
 const Knowledge = () => {
     return(
@@ -22,12 +24,10 @@ const Knowledge = () => {
                         <BackEnd/>
                     </div>
                     
-                </div>
-
-                <div className="Other-Knowledge">
-                    <div>
-                        
+                    <div className="Other-Card">
+                        <OtherKnowledge/>
                     </div>
+
                 </div>
 
             </div>

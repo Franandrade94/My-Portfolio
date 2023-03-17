@@ -1,37 +1,39 @@
 import "./otherknowledge.css";
 import React from "react";
-import { IoLogoReact,IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+import { IoLogoGoogle } from "react-icons/io5";
 import { IoLogoNodejs } from "react-icons/io";
-import { SiSequelize } from "react-icons/si";
+import { SiAdobe, SiMicrosoftoffice } from "react-icons/si";
+import { RiLightbulbLine } from "react-icons/ri";
+import { BiWorld } from "react-icons/bi";
 
 
 
 const OtherKnowledge = () => {
     return(
-        <div className="Back-End-Icons">
+        <div className="Other-Icons">
             <div>
-                <h2 className="Back-title">Back-End</h2>
+                <h2 className="Back-title">Other Knowledges</h2>
 
-                <div className="Back-Container">
+                <div className="Other-Container">
                 
-                    <div className="Back-Knowledge">
-                        <IoLogoNodejs className="Back-icon"/>
-                        <p>Node.Js</p>
+                    <div className="Other-Knowledge">
+                        <RiLightbulbLine className="Other-icon"/>
+                        <p>Agile Methodologies</p>
                     </div>
 
-                    <div className="Back-Knowledge">
-                        <SiSequelize className="Back-icon"/>
-                        <p>Sequelize</p>
+                    <div className="Other-Knowledge">
+                        <IoLogoGoogle className="Other-icon"/>
+                        <p>Google INC tools</p>
                     </div>
 
-                    <div className="Back-Knowledge">
-                        <IoLogoJavascript className="Back-icon"/>
-                        <p>SQL</p>
+                    <div className="Other-Knowledge">
+                        <SiAdobe className="Other-icon"/>
+                        <p>Adobe Suite</p>
                     </div>
 
-                    <div className="Back-Knowledge">
-                        <IoLogoReact className="Back-icon"/>
-                        <p>Express</p>
+                    <div className="Other-Knowledge">
+                        <SiMicrosoftoffice className="Other-icon"/>
+                        <p>Microsoft Office Suite</p>
                     </div>
 
                 </div>

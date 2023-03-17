@@ -29,43 +29,42 @@ const Me = () => {
 
                         <div className="Personal-Button">
                             <button>
-                                Name
+                                <p className="Name-P">Name</p>
                                 <p className="Personal-P">
                                     Francisco Andrade
                                 </p>
                             </button>
 
                             <button>
-                                Birth
+                                <p className="Name-P">Birth</p>
                                 <p className="Personal-P">
                                     15-09-1994
                                 </p>
                             </button>
                     
                             <button>
-                                Region
+                                <p className="Name-P">Region</p>
                                 <p className="Personal-P">
                                     CABA, Argentina
                                 </p>
                             </button>
                     
                             <button>
-                                Email
+                                <p className="Name-P">Email</p>
                                 <p className="Personal-P">
                                     franandrade15994@gmail.com 
                                 </p>                        
                             </button>
 
                             <button>
-                                Contact
+                                <p className="Name-P">Contact</p>
                                 <p className="Personal-P">
                                     +54 9 11 56073772 
                                 </p>
                             </button>
 
                             <button onClick={ handleClickLinkedIn }>
-                                LinkedIn
-                        
+                                <p className="Name-P">LinkedIn</p>                        
                                 <p className="Personal-P">
                                     andrade-francisco94 
                                 </p>
