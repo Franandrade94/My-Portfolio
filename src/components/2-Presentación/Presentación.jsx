@@ -22,7 +22,7 @@ const Presentacion = () => {
 
 
     return(
-        
+        <div>
         <div className="Portfolio-Container">
             {/* <button className="Welcome">Welcome to My Portfolio</button> */}
             <div className="GetInTouch-Position">
@@ -55,7 +55,7 @@ const Presentacion = () => {
                     }   
                 </div>
             </div>
-                      
+        </div>
             <footer className="redes">
                 <Link onClick={handleClickWhatsapp}>
                     <IoLogoWhatsapp className="icon-contact"/>

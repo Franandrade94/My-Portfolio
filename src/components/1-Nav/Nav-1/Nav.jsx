@@ -118,7 +118,6 @@ const Nav = () => {
                       <a >Projects</a>
                       <a >Courses</a>
                       <a >Experience</a>
-                      <a >Hobbies</a>
                       <a /*onClick={handleClickContacto2} */> Contact </a>
                     </div>      
                         ) : (
@@ -146,8 +145,6 @@ const Nav = () => {
                       <a >Projects</a>
                       <a >Courses</a>
                       <a >Experience</a>
-                      <a >Hobbies</a>
-
                       <a
                         /*onClick={handleClickContacto}*/
                         // className={currentSection === "contacto" ? "current" : ""}
