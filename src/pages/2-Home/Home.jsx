@@ -1,13 +1,15 @@
 import "./home.css";
 import React from "react";
-import Nav from "../../components/1-Nav/Nav-1/Nav";
 import Presentacion from "../../components/2-Presentación/Presentación";
+import Nav from "../../components/1-Nav/Nav-1/Nav";
 
 const  Home = () => {
 
     return(
         <div className="Home">
-            <Nav/>
+            <div className="Nav-Page">
+                <Nav/>
+            </div>
             <Presentacion/>
         </div>
     )

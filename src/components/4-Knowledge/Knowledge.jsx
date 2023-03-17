@@ -7,11 +7,11 @@ import OtherKnowledge from "./Icon-Knowledge/OtherKnowledge/OtherKnowledge";
 
 const Knowledge = () => {
     return(
-        <div>
+        <div className="Knowledge-All" id="Knowledge">
             <div className="Knowledge-Container">
                 
                 <div className="Knowledge-Title">
-                    <h2 id="Knowledge">My Knowledge</h2>
+                    <h2>My Knowledge</h2>
                 </div>
 
                 <div className="Knowledge-IT">

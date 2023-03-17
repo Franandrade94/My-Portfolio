@@ -1,23 +1,60 @@
 import "./nav.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import BurgerButtonNav from "./BurgeButton/BurgerButton";
 import { animateScroll as scroll } from "react-scroll";
-import { Link } from "react-router-dom";
+
 
 
 const Nav = () => {
 
     const [ clicked, setClicked ] = useState(false);
+    const [currentSection, setCurrentSection] = useState("Home");
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const homeSection = document.getElementById("Home");
+          const aboutMeSection = document.getElementById("aboutme");
+          const knowledgeSection = document.getElementById("Knowledge");
+          //const contactoSection = document.getElementById("contacto");
+      
+          console.log(knowledgeSection.offsetTop, "Soy Console Log");
+
+          if (
+            window.pageYOffset >= homeSection.offsetTop &&
+            window.pageYOffset < aboutMeSection.offsetTop
+          ) {
+            setCurrentSection("Home");
+          } else if (
+            window.pageYOffset >= aboutMeSection.offsetTop &&
+            window.pageYOffset < knowledgeSection.offsetTop
+          ) {
+            setCurrentSection("aboutme");
+          } else if (
+            window.pageYOffset >= knowledgeSection.offsetTop //&&
+            // window.pageYOffset < contactoSection.offsetTop
+          ) {
+            setCurrentSection("Knowledge");
+          } //else if (window.pageYOffset >= contactoSection.offsetTop) {
+          //   setCurrentSection("contacto");
+          // }
+        };
+      
+        window.addEventListener("scroll", handleScroll);
+      
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
 
     const handleClick = () => {
       setClicked(!clicked)
     }
 
-    const scrollToContacto = () => {
-      scroll.scrollTo(document.getElementById("contacto").offsetTop);
-    };
-  
+    const scrollToHome = () => {
+        scroll.scrollTo(document.getElementById("Home").offsetTop);
+      };
+ 
     const scrollToAboutMe = () => {
         scroll.scrollTo(document.getElementById("aboutme").offsetTop);
     };
@@ -25,7 +62,21 @@ const Nav = () => {
     const scrollToKnowledge = () => {
         scroll.scrollTo(document.getElementById("Knowledge").offsetTop);
     };
+
+    const scrollToContacto = () => {
+        scroll.scrollTo(document.getElementById("contacto").offsetTop);
+    };
     
+
+    const handleClickHome = () => {
+        scrollToHome();
+    }
+
+    const handleClickHome2 = () => {
+        scrollToHome();
+        handleClick()
+    }
+
     const handleClickAboutMe = () => {
         scrollToAboutMe();
     }
@@ -44,64 +95,66 @@ const Nav = () => {
         handleClick()
     }
 
-
-
-    const handleClickContacto = () => {
-        scrollToContacto();
-    }
+    // const handleClickContacto = () => {
+    //     scrollToContacto();
+    // }
   
-    const handleClickContacto2 = () => {
-          scrollToContacto();
-          handleClick()
-    }
-
+    // const handleClickContacto2 = () => {
+    //       scrollToContacto();
+    //       handleClick()
+    // }
 
     return(
-        <div>
+        <div id="Home">
             <NavBar>
                 <div className={`links ${ clicked ? 'active' : '' }`}>
                     
                     {window.innerWidth <= 790 ? 
                      (  
                     <div> 
-                        <a onClick={handleClick} href="/">Home</a>
-
-                        <a onClick={handleClickAboutMe2} >About Me</a>
-
-                        <a onClick={handleClickKnowledge2} >Knowledge</a>
-
-                        <a onClick={handleClick} >Projects</a>
-
-                        <a onClick={handleClick} >Courses</a>
-
-                        <a onClick={handleClick} >Experience</a>
-
-                        <a onClick={handleClick} >Hobbies</a>
-                        
-                        <Link className="contact" onClick={handleClickContacto2}  to="" >
-                            <a href="/">Contact</a>
-                        </Link>
+                      <a onClick={handleClickHome2}> Home </a>
+                      <a onClick={handleClickAboutMe2}> About Me </a>
+                      <a onClick={handleClickKnowledge2}> Knowledge </a>
+                      <a onClick={handleClick}>Projects</a>
+                      <a onClick={handleClick}>Courses</a>
+                      <a onClick={handleClick}>Experience</a>
+                      <a onClick={handleClick}>Hobbies</a>
+                      <a /*onClick={handleClickContacto2} */> Contact </a>
                     </div>      
                         ) : (
                     <div>
-                        <a href="/">Home</a>
+                      <a
+                        onClick={handleClickHome}
+                        className={currentSection === "Home" ? "current" : ""}
+                      >
+                        Home
+                      </a>
 
-                        <a onClick={handleClickAboutMe} >About Me</a>
+                      <a
+                        onClick={handleClickAboutMe}
+                        className={currentSection === "aboutme" ? "current" : ""}
+                      >
+                        About Me
+                      </a>
 
-                        <a onClick={ handleClickKnowledge }>Knowledge</a>
-                        
-                        <a >Projects</a>
+                      <a
+                        onClick={handleClickKnowledge}
+                        className={currentSection === "Knowledge" ? "current" : ""}
+                      >
+                        Knowledge
+                      </a>
+                      <a onClick={handleClick}>Projects</a>
+                      <a onClick={handleClick}>Courses</a>
+                      <a onClick={handleClick}>Experience</a>
+                      <a onClick={handleClick}>Hobbies</a>
 
-                        <a >Courses</a>
-
-                        <a >Experience</a>
-
-                        <a >Hobbies</a>
-
-                        <Link onClick={handleClickContacto}  to="" >
-                            <a>Contact</a>
-                        </Link>
-                      </div>)
+                      <a
+                        /*onClick={handleClickContacto}*/
+                        // className={currentSection === "contacto" ? "current" : ""}
+                      >
+                      Contact
+                      </a>
+                    </div>)
                     }
                     
                 </div>
@@ -119,7 +172,7 @@ export default Nav;
 const NavBar = styled.nav`
     
     padding: .8rem;
-    background-color: rgba(110, 110, 110, 0.250);
+    background-color:  rgba(110, 110, 110, 0.250);
     display: flex;
     align-items: center;
 

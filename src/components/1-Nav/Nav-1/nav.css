@@ -2,3 +2,9 @@
    width: 100%;
    text-align: center;
 }
+
+
+a.current {
+   border-bottom: solid 2px rgb(255, 255, 255);
+ }
+ 
