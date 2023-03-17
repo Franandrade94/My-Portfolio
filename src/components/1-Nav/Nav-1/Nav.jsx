@@ -115,10 +115,10 @@ const Nav = () => {
                       <a onClick={handleClickHome2}> Home </a>
                       <a onClick={handleClickAboutMe2}> About Me </a>
                       <a onClick={handleClickKnowledge2}> Knowledge </a>
-                      <a onClick={handleClick}>Projects</a>
-                      <a onClick={handleClick}>Courses</a>
-                      <a onClick={handleClick}>Experience</a>
-                      <a onClick={handleClick}>Hobbies</a>
+                      <a >Projects</a>
+                      <a >Courses</a>
+                      <a >Experience</a>
+                      <a >Hobbies</a>
                       <a /*onClick={handleClickContacto2} */> Contact </a>
                     </div>      
                         ) : (
@@ -143,10 +143,10 @@ const Nav = () => {
                       >
                         Knowledge
                       </a>
-                      <a onClick={handleClick}>Projects</a>
-                      <a onClick={handleClick}>Courses</a>
-                      <a onClick={handleClick}>Experience</a>
-                      <a onClick={handleClick}>Hobbies</a>
+                      <a >Projects</a>
+                      <a >Courses</a>
+                      <a >Experience</a>
+                      <a >Hobbies</a>
 
                       <a
                         /*onClick={handleClickContacto}*/
