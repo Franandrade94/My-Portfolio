@@ -1,3 +1,29 @@
+.GetInTouch-Position{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+.GetInTouch{
+    color: white;
+    background-image: linear-gradient(to left, #8848ff, #86417f);
+    padding: 1% 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.GetInTouch:hover {
+    color: rgb(224, 224, 224);
+    background-image: linear-gradient(to left, rgb(106, 56, 199), rgb(97, 47, 92));
+}
+
+
 .Portfolio-Container{
     background-color: rgba(90, 32, 32, 0);
     margin-left: 5%;
@@ -45,23 +71,6 @@
     margin-bottom: 6%;
 }
 
-.GetInTouch{
-    color: white;
-    background-image: linear-gradient(to left, #8848ff, #86417f);
-    padding: 1% 2%;
-    margin-top: 15%;
-    border: none;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.GetInTouch:hover {
-    color: rgb(224, 224, 224);
-    background-image: linear-gradient(to left, rgb(106, 56, 199), rgb(97, 47, 92));
-}
-
 .redes{
     margin-top: 15%;
     margin-left: .7%;
@@ -73,6 +82,33 @@
 }
 
 @media (min-width: 790px) {
+
+
+    .GetInTouch-Position{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        text-align: right;
+    }
+    .GetInTouch{
+        color: white;
+        background-image: linear-gradient(to left, #8848ff, #86417f);
+        padding: 1% 2%;
+        padding: 1% 2%;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        border: none;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .GetInTouch:hover {
+        color: rgb(224, 224, 224);
+        background-image: linear-gradient(to left, rgb(106, 56, 199), rgb(97, 47, 92));
+    }
 
     .Portfolio-Container{
         background-color: rgba(255, 255, 255, 0);
@@ -95,18 +131,6 @@
         font-size: 54px;
     }
     
-    .GetInTouch{
-        color: white;
-        background-image: linear-gradient(to left, #8848ff, #86417f);
-        padding: 1% 2%;
-        margin-top: 7%;
-        border: none;
-        text-align: center;
-        border-radius: 50px;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
     .redes{
         margin-top: 4%;
         margin-left: .7%;

@@ -24,6 +24,10 @@ const Presentacion = () => {
     return(
         <div className="Portfolio-Container">
             {/* <button className="Welcome">Welcome to My Portfolio</button> */}
+            <div className="GetInTouch-Position">
+                <button className="GetInTouch" onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>Get In Touch</button>
+            </div>
+            
             <div className="Presentacion-Container">
                 <div>
                     <h1 className="presentacion">Hi! I'm <p className="Name">Francisco Andrade</p> <br/>FullStack Developer</h1>
@@ -51,8 +55,6 @@ const Presentacion = () => {
                 </div>
             </div>
                       
-            <button className="GetInTouch" onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>Get In Touch</button>
-
             <footer className="redes">
                 <Link onClick={handleClickWhatsapp}>
                     <IoLogoWhatsapp className="icon-contact"/>
