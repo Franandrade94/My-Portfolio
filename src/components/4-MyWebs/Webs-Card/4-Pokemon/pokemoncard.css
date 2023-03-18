@@ -1,0 +1,74 @@
+.Pokemon-title{
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(255, 187, 0);
+    font-size: 25px;
+}
+
+.Pokemon-Card h3 {
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Pokemon-Container{
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 3%;
+}
+
+.React-Player-div{
+    background-color:black;
+    height: auto;
+    width: 100%;
+}
+
+.Link-Icons{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Web-GitHub{
+    display: inline;
+    margin: 0 1%;
+}
+
+@media (min-width: 790px){
+    .Pokemon-title{
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(255, 187, 0);
+    font-size: 40px;
+}
+
+.Pokemon-Card h3 {
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Pokemon-Container{
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 3%;
+}
+
+.React-Player-div{
+    background-color:black;
+    height: auto;
+    width: 100%;
+}
+
+.Link-Icons{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.Web-GitHub{
+    display: inline;
+    margin: 0 1%;
+}
+}

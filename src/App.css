@@ -12,8 +12,5 @@
   width: 100%;
     height: auto;
     background-color: rgb(39, 45, 71);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 }

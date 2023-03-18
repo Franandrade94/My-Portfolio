@@ -16,6 +16,7 @@ const Nav = () => {
           const homeSection = document.getElementById("Home");
           const aboutMeSection = document.getElementById("aboutme");
           const knowledgeSection = document.getElementById("Knowledge");
+          const projectsSection = document.getElementById("projects");
           //const contactoSection = document.getElementById("contacto");
       
           console.log(knowledgeSection.offsetTop, "Soy Console Log");
@@ -31,13 +32,13 @@ const Nav = () => {
           ) {
             setCurrentSection("aboutme");
           } else if (
-            window.pageYOffset >= knowledgeSection.offsetTop //&&
-            // window.pageYOffset < contactoSection.offsetTop
+            window.pageYOffset >= knowledgeSection.offsetTop &&
+            window.pageYOffset < projectsSection.offsetTop
           ) {
             setCurrentSection("Knowledge");
-          } //else if (window.pageYOffset >= contactoSection.offsetTop) {
-          //   setCurrentSection("contacto");
-          // }
+          } else if (window.pageYOffset >= projectsSection.offsetTop) {
+             setCurrentSection("projects");
+          }
         };
       
         window.addEventListener("scroll", handleScroll);
@@ -62,6 +63,10 @@ const Nav = () => {
     const scrollToKnowledge = () => {
         scroll.scrollTo(document.getElementById("Knowledge").offsetTop);
     };
+
+    const scrollToProjects = () => {
+      scroll.scrollTo(document.getElementById("projects").offsetTop);
+  };
 
     const scrollToContacto = () => {
         scroll.scrollTo(document.getElementById("contacto").offsetTop);
@@ -95,6 +100,15 @@ const Nav = () => {
         handleClick()
     }
 
+    const handleClickProjects = () => {
+      scrollToProjects();
+  }
+
+  const handleClickProjects2 = () => {
+      scrollToProjects();
+      handleClick()
+  }
+
     // const handleClickContacto = () => {
     //     scrollToContacto();
     // }
@@ -115,7 +129,7 @@ const Nav = () => {
                       <a onClick={handleClickHome2}> Home </a>
                       <a onClick={handleClickAboutMe2}> About Me </a>
                       <a onClick={handleClickKnowledge2}> Knowledge </a>
-                      <a >Projects</a>
+                      <a onClick={handleClickProjects2}>Projects</a>
                       <a >Courses</a>
                       <a >Experience</a>
                       <a /*onClick={handleClickContacto2} */> Contact </a>
@@ -142,7 +156,13 @@ const Nav = () => {
                       >
                         Knowledge
                       </a>
-                      <a >Projects</a>
+
+                      <a
+                        onClick={handleClickProjects}
+                        className={currentSection === "projects" ? "current" : ""}
+                      >
+                        Projects
+                      </a>
                       <a >Courses</a>
                       <a >Experience</a>
                       <a
