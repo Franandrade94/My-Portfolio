@@ -1,11 +1,11 @@
 import "./courses.css";
 import React from "react";
-import CoursesComp from "../../components/5-Courses/Courses";
+import CoursesComponent from "../../components/5-Courses/CoursesComponent";
 
 const Courses = () => {
     return(
         <div className="">
-            <CoursesComp/>
+            <CoursesComponent/>
         </div>
     )
 };

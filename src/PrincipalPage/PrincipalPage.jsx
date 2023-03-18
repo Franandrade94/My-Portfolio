@@ -3,7 +3,7 @@ import React from "react";
 import Home from "../pages/2-Home/Home";
 import AboutMe from "../pages/3-AboutMe/AboutMe";
 import Knowledge from "../pages/4-KnowledgePage/Knowledge";
-import MyWebs from "../components/4-MyWebs/MyWebs";
+import Projects from "../pages/5-Projects/Projects";
 import Courses from "../pages/6-Courses/Courses";
 
 const PrincipalPage = () => {
@@ -12,7 +12,7 @@ const PrincipalPage = () => {
             <Home/>
             <AboutMe/>
             <Knowledge/>
-            <MyWebs/>
+            <Projects/>
             <Courses/>
         </div>
     )
