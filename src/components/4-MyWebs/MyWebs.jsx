@@ -19,7 +19,6 @@ class MyWebs extends Component {
         slidesToShow: 1,
         slidesToScroll: 0,
         autoplay: true,
-        arrow: false,
         responsive: [
           {
             breakpoint: 790,
