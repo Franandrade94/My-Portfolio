@@ -12,6 +12,7 @@ class MyWebs extends Component {
   render() {
     const settings = {
       dots: true,
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -25,6 +26,7 @@ class MyWebs extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
+            arrows: false,
           },
         },
       ],
