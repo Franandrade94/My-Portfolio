@@ -22,7 +22,7 @@ const BonitaDevoto = () => {
         <div className="Web-Card">
             <div>
                 <h2 className="Card-title">Bonita Devoto</h2>
-
+                <h3 className="Title-Card">E-Commerce</h3>
                 <div className="Card-Container">
                     <div className="React-Player-div">
                         <ReactPlayer

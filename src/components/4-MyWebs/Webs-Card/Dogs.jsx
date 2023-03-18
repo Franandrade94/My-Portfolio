@@ -17,8 +17,8 @@ const Dogs = () => {
     return(
         <div className="Web-Card">
             <div>
-                <h2 className="Card-title">Dogs Web</h2>
-
+                <h2 className="Card-title">Dogs PI</h2>
+                <h3 className="Title-Card">Henry Project</h3>
                 <div className="Card-Container">
                     <div className="React-Player-div">
                         <ReactPlayer
