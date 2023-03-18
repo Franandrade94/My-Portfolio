@@ -17,6 +17,7 @@ const Nav = () => {
           const aboutMeSection = document.getElementById("aboutme");
           const knowledgeSection = document.getElementById("Knowledge");
           const projectsSection = document.getElementById("projects");
+          const coursesSection = document.getElementById("courses");
           //const contactoSection = document.getElementById("contacto");
       
           console.log(knowledgeSection.offsetTop, "Soy Console Log");
@@ -36,9 +37,15 @@ const Nav = () => {
             window.pageYOffset < projectsSection.offsetTop
           ) {
             setCurrentSection("Knowledge");
-          } else if (window.pageYOffset >= projectsSection.offsetTop) {
+          } else if (
+            window.pageYOffset >= projectsSection.offsetTop &&
+            window.pageYOffset < coursesSection.offsetTop
+            ){
              setCurrentSection("projects");
-          }
+          }else if (
+            window.pageYOffset >= projectsSection.offsetTop){
+              setCurrentSection("courses");
+            }
         };
       
         window.addEventListener("scroll", handleScroll);
@@ -66,8 +73,11 @@ const Nav = () => {
 
     const scrollToProjects = () => {
       scroll.scrollTo(document.getElementById("projects").offsetTop);
-  };
+    };
 
+    const scrollToCourses = () => {
+      scroll.scrollTo(document.getElementById("courses").offsetTop);
+    };
     const scrollToContacto = () => {
         scroll.scrollTo(document.getElementById("contacto").offsetTop);
     };
@@ -102,12 +112,21 @@ const Nav = () => {
 
     const handleClickProjects = () => {
       scrollToProjects();
-  }
+    }
 
-  const handleClickProjects2 = () => {
+    const handleClickProjects2 = () => {
       scrollToProjects();
       handleClick()
-  }
+    }
+
+    const handleClickCourses = () => {
+      scrollToCourses();
+    }
+
+    const handleClickCourses2 = () => {
+      scrollToCourses();
+      handleClick()
+    }
 
     // const handleClickContacto = () => {
     //     scrollToContacto();
@@ -130,7 +149,7 @@ const Nav = () => {
                       <a onClick={handleClickAboutMe2}> About Me </a>
                       <a onClick={handleClickKnowledge2}> Knowledge </a>
                       <a onClick={handleClickProjects2}>Projects</a>
-                      <a >Courses</a>
+                      <a onClick={handleClickCourses2}>Courses</a>
                       <a >Experience</a>
                       <a /*onClick={handleClickContacto2} */> Contact </a>
                     </div>      
@@ -163,7 +182,14 @@ const Nav = () => {
                       >
                         Projects
                       </a>
-                      <a >Courses</a>
+
+                      <a
+                        onClick={handleClickCourses}
+                        className={currentSection === "courses" ? "current" : ""}
+                      >
+                        Courses
+                      </a>
+                      
                       <a >Experience</a>
                       <a
                         /*onClick={handleClickContacto}*/

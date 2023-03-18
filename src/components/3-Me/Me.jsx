@@ -4,10 +4,6 @@ import React from "react";
 
 const Me = () => {
 
-    const handleClickLinkedIn = () => {
-        window.open("https://www.linkedin.com/in/andrade-francisco94/")
-    }
-
     return(
         <div className="Me-All" id="aboutme"> 
             <div className="Me-Container">
@@ -63,7 +59,7 @@ const Me = () => {
                                 </p>
                             </button>
 
-                            <button onClick={ handleClickLinkedIn }>
+                            <button>
                                 <p className="Name-P">LinkedIn</p>                        
                                 <p className="Personal-P">
                                     andrade-francisco94 

@@ -1,0 +1,13 @@
+.Courses-Container h1{
+    margin-top: 1%;
+    text-align: center;
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+}
+
+@media (min-width: 790px) {
+    .Courses-Container h1{
+        color: rgb(255, 187, 0);
+        font-size: 45px;
+    }
+}

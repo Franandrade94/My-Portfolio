@@ -1,48 +1,61 @@
 import "./mywebs.css";
-import React from "react";
-import Dogs from "./Webs-Card/1-PI-Dogs/Dogs";
-import BonitaDevoto from "./Webs-Card/2-PF-BonitaDevoto/BonitaDevoto";
-import VideoGames from "./Webs-Card/3-PI-VideoGames/VideoGames";
-import Pokemon from "./Webs-Card/4-Pokemon/PokemonCard";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import Dogs from "./Webs-Card/Dogs";
+import Bonita from "./Webs-Card/BonitaDevoto";
+import Pokemon from "./Webs-Card/PokemonCard";
+import Videogames from "./Webs-Card/VideoGames";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
-const MyWebs = () => {
-    return(
+class MyWebs extends Component {
+    render() {
+      const settings = {
+        dots: true,
+        infinite: true,
+        speed: 400,
+        slidesToShow: 1,
+        slidesToScroll: 0,
+        autoplay: true,
+        arrow: false,
+        responsive: [
+          {
+            breakpoint: 790,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 0,
+              infinite: true,
+              dots: true
+            }
+          }
+        ]
+      };
+      return (
         <div className="Project-All" id="projects">
-            <div className="Project-Container">
-                
-                <div className="Project-Title">
-                    <h2>My Projects</h2>
+          <div className="Project-Container">
+            <h2 className="Project-Title">My Projects</h2>
+            <div className="slider-Container">
+                <Slider {...settings}>
+                <div>
+                    <Bonita />
                 </div>
                 <div>
-                
-                <div className="Projects-Card-Container">
-                
-                    <div className="Projects-Card">
-
-                        <div className="Dogs-Card">
-                            <Dogs/>
-                        </div>
-
-                        <div className="BonitaDevoto-Card">
-                            <BonitaDevoto/>
-                        </div>
-                    
-                        <div className="Videogames-Card">
-                            <VideoGames/>
-                        </div>
-
-                        <div className="Pokemon-Card">
-                            <Pokemon/>
-                        </div>
-                        
-                    </div>
+                    <Dogs />
                 </div>
+                <div>
+                    <Videogames />
                 </div>
+                <div>
+                    <Pokemon />
+                </div>
+                </Slider>
             </div>
+          </div>
         </div>
-    )
-};
-
-export default MyWebs;
+      );
+    }
+  }
+  
+  export default MyWebs;

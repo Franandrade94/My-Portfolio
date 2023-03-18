@@ -1,8 +1,8 @@
-import "./dogs.css";
+import "./webscard.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-import Video from "../../../../assets/videos/DogApp.mp4";
+import Video from "../../../assets/videos/DogApp.mp4";
 import { IoLogoGithub } from "react-icons/io5";
 //import { CgWebsite } from "react-icons/cg";
 
@@ -15,11 +15,11 @@ const Dogs = () => {
 
 
     return(
-        <div className="Dog-Card">
+        <div className="Web-Card">
             <div>
-                <h2 className="Dog-title">Dogs Web</h2>
+                <h2 className="Card-title">Dogs Web</h2>
 
-                <div className="Dog-Container">
+                <div className="Card-Container">
                     <div className="React-Player-div">
                         <ReactPlayer
 
