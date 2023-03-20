@@ -4,6 +4,19 @@ import React from "react";
 
 const Me = () => {
 
+    const handleClickWhatsapp = () => {
+        window.open("https://wa.me/5491156073772?text=Hola,%20Francisco%20¿Cómo%20estas?%20Vi%20tu%20página%20personal%20y%20me%20gustaría%20contactarte.%20Muchas%20Gracias!%20")
+    }
+
+    const handleClickLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/andrade-francisco94/")
+    }
+
+    
+    const handleClickGitHub = () => {
+        window.open("https://github.com/Franandrade94")
+    }
+
     return(
         <div className="Me-All" id="aboutme"> 
             <div className="Me-Container">
@@ -30,13 +43,6 @@ const Me = () => {
                                     Francisco Andrade
                                 </p>
                             </button>
-
-                            <button>
-                                <p className="Name-P">Birth</p>
-                                <p className="Personal-P">
-                                    15-09-1994
-                                </p>
-                            </button>
                     
                             <button>
                                 <p className="Name-P">Region</p>
@@ -45,24 +51,31 @@ const Me = () => {
                                 </p>
                             </button>
                     
-                            <button>
+                            <button onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>
                                 <p className="Name-P">Email</p>
-                                <p className="Personal-P">
+                                <p className="Personal-P-Link">
                                     franandrade15994@gmail.com 
                                 </p>                        
                             </button>
 
-                            <button>
+                            <button onClick={handleClickWhatsapp}>
                                 <p className="Name-P">Contact</p>
-                                <p className="Personal-P">
+                                <p className="Personal-P-Link">
                                     +54 9 11 56073772 
                                 </p>
                             </button>
 
-                            <button>
+                            <button onClick={handleClickLinkedIn}>
                                 <p className="Name-P">LinkedIn</p>                        
-                                <p className="Personal-P">
+                                <p className="Personal-P-Link">
                                     andrade-francisco94 
+                                </p>
+                            </button>
+
+                            <button onClick={handleClickGitHub}>
+                                <p className="Name-P">GitHub</p>
+                                <p className="Personal-P-Link">
+                                    Franandrade94
                                 </p>
                             </button>
                         </div>
