@@ -85,17 +85,20 @@ text-align: center;
     font-size: 15px;
 }
 
+.LinkMe {
+    margin: 2%;
+    color: white;
+}
+
 .Personal-P-Link{
     color: rgb(255, 255, 255);
     margin-top: 5%;
     margin-bottom: 5%;
     font-weight: lighter;
     font-size: 15px;
-}
-
-.Personal-P-Link:hover {
     text-decoration:underline;
 }
+
 
 @media (min-width: 790px) {
     .Me-Container{
@@ -173,12 +176,23 @@ text-align: center;
         font-size: 18px;
     }
 
+    .LinkMe {
+        margin: 2%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .LinkMe:hover{
+        text-decoration: underline;
+    }
+
     .Personal-P-Link{
         color: rgb(255, 255, 255);
         margin-top: 5%;
         margin-bottom: 5%;
         font-weight: lighter;
         font-size: 18px;
+        text-decoration: none;
     }
 
     .Personal-P-Link:hover {

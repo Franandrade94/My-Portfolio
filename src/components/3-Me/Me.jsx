@@ -1,8 +1,17 @@
 import "./me.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Me = () => {
+
+    const handleClickMyResumeIngles =() => {
+        window.open("https://drive.google.com/file/d/1j9v1xTfMZUBLRh1zrNajDRlYXvGwIs8n/view?usp=sharing")
+    }
+
+    const handleClickMyResumeEsp =() => {
+        window.open("https://drive.google.com/file/d/1VLL3gPDHzVanASpnN157SpKJHaRBYmLo/view?usp=sharing")
+    }
 
     const handleClickWhatsapp = () => {
         window.open("https://wa.me/5491156073772?text=Hola,%20Francisco%20¿Cómo%20estas?%20Vi%20tu%20página%20personal%20y%20me%20gustaría%20contactarte.%20Muchas%20Gracias!%20")
@@ -38,9 +47,10 @@ const Me = () => {
 
                         <div className="Personal-Button">
                             <button>
-                                <p className="Name-P">Name</p>
+                                <p className="Name-P">My Resume</p>
                                 <p className="Personal-P">
-                                    Francisco Andrade
+                                    <Link className="LinkMe" onClick={ handleClickMyResumeIngles }>English</Link>
+                                    <Link className="LinkMe" onClick={ handleClickMyResumeEsp }>Spanish</Link>
                                 </p>
                             </button>
                     

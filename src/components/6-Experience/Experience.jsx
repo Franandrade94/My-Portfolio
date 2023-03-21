@@ -35,9 +35,12 @@ const Experience = () => {
                         <h2>2021-Today</h2>
                         <div>
                             <h3>Freelance WebDeveloper Design</h3>
-                            <p> Full Stack web development.
-                                Creating an E-commerce site using Sql, React, Redux, Node.js, Sequelize,
-                                Auth0, and Stripe.</p>
+                            <p> Full Stack web development performing:
+                                <br/><br/>
+                                -   Single Page websites using HTML, CSS, and JS.
+                                <br/>
+                                -   An E-commerce with Sql, React, Redux, Node.js, Sequelize, Auth0 and Stripe.
+                            </p>
                         </div>
                         
                         <br/>
