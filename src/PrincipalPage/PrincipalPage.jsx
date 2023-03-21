@@ -6,6 +6,7 @@ import Knowledge from "../pages/4-KnowledgePage/Knowledge";
 import Projects from "../pages/5-Projects/Projects";
 import Courses from "../pages/6-Courses/Courses";
 import MyExperiences from "../pages/7-MyExperiences/MyExperiences";
+import ContactPage from "../pages/8-Contact/ContactPage";
 
 const PrincipalPage = () => {
     return (
@@ -16,6 +17,7 @@ const PrincipalPage = () => {
             <Projects/>
             <MyExperiences/>
             <Courses/>
+            <ContactPage/>
         </div>
     )
 };

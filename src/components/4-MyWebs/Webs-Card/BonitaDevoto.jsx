@@ -2,7 +2,6 @@ import "./webscard.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-import Video from "../../../assets/videos/Bonita.mp4";
 import { IoLogoGithub } from "react-icons/io5";
 import { CgWebsite } from "react-icons/cg";
 
@@ -27,7 +26,7 @@ const BonitaDevoto = () => {
                     <div className="React-Player-div">
                         <ReactPlayer
 
-                            url={Video}
+                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125535/rzxaxbs1lg7yqyatqwe0.mp4"
                             controls
                             width="100%"
                             height="100%"

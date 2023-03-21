@@ -2,7 +2,6 @@ import "./webscard.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
-import Video from "../../../assets/videos/Pokemon.mp4";
 import { IoLogoGithub } from "react-icons/io5";
 //import { CgWebsite } from "react-icons/cg";
 
@@ -23,7 +22,7 @@ const Pokemon = () => {
                     <div className="React-Player-div">
                         <ReactPlayer
 
-                            url={Video}
+                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125545/umlbnu7gmswtxrxbpwnn.mp4"
                             controls
                             width="100%"
                             height="100%"

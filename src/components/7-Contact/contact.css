@@ -1,0 +1,51 @@
+.contact-Container{
+ color: white;
+ background-color:  rgb(23, 27, 44);
+ padding-top: 20%;
+ padding-bottom: 2%;
+}
+
+.All-Contact{
+    margin-left: 5%;
+}
+
+
+.contacts{
+    margin-bottom: 5%;
+}
+
+.contacts h3{
+    color: rgb(255, 187, 0);
+}
+
+.contacts p:hover {
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+}
+
+@media (min-width: 790px) {
+    .contact-Container{
+        color: white;
+        background-color:  rgb(23, 27, 44);
+        padding-top: 7%;
+        padding-bottom: 1%;
+       }
+       
+       .All-Contact{
+           margin-left: 5%;
+       }
+       
+       
+       .contacts{
+           margin-bottom: 2%;
+       }
+       
+       .contacts h3{
+           color: rgb(255, 187, 0);
+       }
+       
+       .contacts p:hover {
+           color: rgb(255, 255, 255);
+           text-decoration:underline;
+       }
+}

@@ -87,11 +87,14 @@ text-align: center;
 
 .Personal-P-Link{
     color: rgb(255, 255, 255);
-    text-decoration:underline;
     margin-top: 5%;
     margin-bottom: 5%;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.Personal-P-Link:hover {
+    text-decoration:underline;
 }
 
 @media (min-width: 790px) {
@@ -172,10 +175,13 @@ text-align: center;
 
     .Personal-P-Link{
         color: rgb(255, 255, 255);
-        text-decoration:underline;
         margin-top: 5%;
         margin-bottom: 5%;
         font-weight: lighter;
         font-size: 18px;
+    }
+
+    .Personal-P-Link:hover {
+        text-decoration:underline;
     }
 }

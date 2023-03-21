@@ -19,7 +19,7 @@ const Nav = () => {
           const projectsSection = document.getElementById("projects");
           const experienceSection = document.getElementById("experiences");
           const coursesSection = document.getElementById("courses");
-          //const contactoSection = document.getElementById("contacto");
+          const contactSection = document.getElementById("contacto");
       
           console.log(knowledgeSection.offsetTop, "Soy Console Log");
 
@@ -47,8 +47,12 @@ const Nav = () => {
             window.pageYOffset >= experienceSection.offsetTop &&
             window.pageYOffset < coursesSection.offsetTop){
               setCurrentSection("experiences");
-            }else if(window.pageYOffset >= experienceSection.offsetTop){
+            }else if(window.pageYOffset >= coursesSection.offsetTop &&
+            window.pageYOffset < contactSection.offsetTop)
+            {
               setCurrentSection("courses");
+            }else if (window.pageYOffset >= coursesSection.offsetTop){
+              setCurrentSection("contacto")
             }
         };
       
@@ -146,14 +150,14 @@ const Nav = () => {
       handleClick()
     }
 
-    // const handleClickContacto = () => {
-    //     scrollToContacto();
-    // }
+    const handleClickContacto = () => {
+      scrollToContacto();
+    }
   
-    // const handleClickContacto2 = () => {
-    //       scrollToContacto();
-    //       handleClick()
-    // }
+    const handleClickContacto2 = () => {
+      scrollToContacto();
+      handleClick()
+    }
 
     return(
         <div id="Home">
@@ -169,7 +173,7 @@ const Nav = () => {
                       <a onClick={handleClickProjects2}>Projects</a>
                       <a onClick={handleClickCourses2}>Courses</a>
                       <a onClick={handleClickExperiences2}>Experience</a>
-                      <a /*onClick={handleClickContacto2} */> Contact </a>
+                      <a onClick={handleClickContacto2}> Contact </a>
                     </div>      
                         ) : (
                     <div>
@@ -216,8 +220,8 @@ const Nav = () => {
                       </a>
                                             
                       <a
-                        /*onClick={handleClickContacto}*/
-                        // className={currentSection === "contacto" ? "current" : ""}
+                        onClick={handleClickContacto}
+                        className={currentSection === "contacto" ? "current" : ""}
                       >
                       Contact
                       </a>
