@@ -4,7 +4,7 @@ import React from "react";
 const Experience = () => {
 
     return(
-        <div className="MyExperience" id="courses">
+        <div className="MyExperience" id="experiences">
             <div className="Experience-Container">
                 <h1>My Experiences</h1>
                 <div className="All-Experiences">

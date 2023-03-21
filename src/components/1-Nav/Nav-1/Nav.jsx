@@ -17,6 +17,7 @@ const Nav = () => {
           const aboutMeSection = document.getElementById("aboutme");
           const knowledgeSection = document.getElementById("Knowledge");
           const projectsSection = document.getElementById("projects");
+          const experienceSection = document.getElementById("experiences");
           const coursesSection = document.getElementById("courses");
           //const contactoSection = document.getElementById("contacto");
       
@@ -39,11 +40,14 @@ const Nav = () => {
             setCurrentSection("Knowledge");
           } else if (
             window.pageYOffset >= projectsSection.offsetTop &&
-            window.pageYOffset < coursesSection.offsetTop
+            window.pageYOffset < experienceSection.offsetTop
             ){
              setCurrentSection("projects");
           }else if (
-            window.pageYOffset >= projectsSection.offsetTop){
+            window.pageYOffset >= experienceSection.offsetTop &&
+            window.pageYOffset < coursesSection.offsetTop){
+              setCurrentSection("experiences");
+            }else if(window.pageYOffset >= experienceSection.offsetTop){
               setCurrentSection("courses");
             }
         };
@@ -75,9 +79,14 @@ const Nav = () => {
       scroll.scrollTo(document.getElementById("projects").offsetTop);
     };
 
+    const scrollToExperiences = () => {
+      scroll.scrollTo(document.getElementById("experiences").offsetTop);
+    };
+
     const scrollToCourses = () => {
       scroll.scrollTo(document.getElementById("courses").offsetTop);
     };
+
     const scrollToContacto = () => {
         scroll.scrollTo(document.getElementById("contacto").offsetTop);
     };
@@ -119,6 +128,15 @@ const Nav = () => {
       handleClick()
     }
 
+    const handleClickExperiences = () => {
+      scrollToExperiences();
+    }
+
+    const handleClickExperiences2 = () => {
+      scrollToExperiences();
+      handleClick()
+    }
+
     const handleClickCourses = () => {
       scrollToCourses();
     }
@@ -150,7 +168,7 @@ const Nav = () => {
                       <a onClick={handleClickKnowledge2}> Knowledge </a>
                       <a onClick={handleClickProjects2}>Projects</a>
                       <a onClick={handleClickCourses2}>Courses</a>
-                      <a >Experience</a>
+                      <a onClick={handleClickExperiences2}>Experience</a>
                       <a /*onClick={handleClickContacto2} */> Contact </a>
                     </div>      
                         ) : (
@@ -184,13 +202,19 @@ const Nav = () => {
                       </a>
 
                       <a
+                        onClick={handleClickExperiences}
+                        className={currentSection === "experiences" ? "current" : ""}
+                      >
+                        Experience
+                      </a>
+
+                      <a
                         onClick={handleClickCourses}
                         className={currentSection === "courses" ? "current" : ""}
                       >
                         Courses
                       </a>
-                      
-                      <a >Experience</a>
+                                            
                       <a
                         /*onClick={handleClickContacto}*/
                         // className={currentSection === "contacto" ? "current" : ""}

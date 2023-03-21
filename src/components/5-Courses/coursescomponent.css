@@ -94,7 +94,8 @@
 @media (min-width: 790px) {
     .Courses-Container h1{
         margin-top: 2%;
-    padding-bottom: 5%;
+        padding-bottom: 5%;
+        padding-top: 10%;
         color: rgb(255, 187, 0);
         font-size: 45px;
     }
