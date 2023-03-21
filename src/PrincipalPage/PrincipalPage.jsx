@@ -5,6 +5,7 @@ import AboutMe from "../pages/3-AboutMe/AboutMe";
 import Knowledge from "../pages/4-KnowledgePage/Knowledge";
 import Projects from "../pages/5-Projects/Projects";
 import Courses from "../pages/6-Courses/Courses";
+import MyExperiences from "../pages/7-MyExperiences/MyExperiences";
 
 const PrincipalPage = () => {
     return (
@@ -13,6 +14,7 @@ const PrincipalPage = () => {
             <AboutMe/>
             <Knowledge/>
             <Projects/>
+            <MyExperiences/>
             <Courses/>
         </div>
     )
