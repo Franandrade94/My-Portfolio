@@ -9,7 +9,7 @@ import { CgWebsite } from "react-icons/cg";
 const BonitaDevoto = () => {
 
     const handleClickGitHub = () => {
-        window.open("https://github.com/Franandrade94/Dogs-PI-main")
+        window.open("https://github.com/Franandrade94/9-PF-Deploy-Font")
     }
 
     const handleClickDeploy = () => {

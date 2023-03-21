@@ -26,9 +26,9 @@
 }
 
 .Front-Card{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 6%;
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border:  solid 3px transparent;
@@ -39,8 +39,8 @@
 }
 
 .Back-Card{
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border:  solid 3px transparent;
@@ -51,9 +51,9 @@
 }
 
 .Other-Card{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border:  solid 3px transparent;
@@ -64,9 +64,9 @@
 }
 
 .Languages-Card{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
     border-radius: 20px;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border:  solid 3px transparent;

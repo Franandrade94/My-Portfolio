@@ -9,7 +9,7 @@ import { IoLogoGithub } from "react-icons/io5";
 const Pokemon = () => {
 
     const handleClickGitHub = () => {
-        window.open("https://github.com/Franandrade94/Dogs-PI-main")
+        window.open("https://github.com/Franandrade94/1-PI-Pokemon")
     }
 
 

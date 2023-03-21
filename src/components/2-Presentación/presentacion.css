@@ -62,10 +62,11 @@
 }
 
 .Info{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 5%;
     text-align: center;
-    margin-right: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 6%;
 }
 

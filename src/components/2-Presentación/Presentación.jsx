@@ -8,7 +8,7 @@ const Presentacion = () => {
 
     
     const handleClickWhatsapp = () => {
-        window.open("https://wa.me/5491156073772?text=Hola,%20Francisco%20¿Cómo%20estas?%20Vi%20tu%20página%20personal%20y%20me%20gustaría%20contactarte.%20Muchas%20Gracias!%20")
+        window.open("https://wa.me/5491156073772?text=Hello%20Francisco.%20How%20are%20you?%20I%20saw%20your%20personal%20page%20and%20I%20would%20like%20to%20get%20in%20touch%20with%20you.%20Thank%20you%20very%20much!%20 ")
     }
 
     const handleClickGitHub = () => {
