@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 
 const Me = () => {
 
+    const handleClickMyUbication =() => {
+        window.open("https://goo.gl/maps/eRDfpzMrXfSofvcB9")
+    }
+
     const handleClickMyResumeIngles =() => {
         window.open("https://drive.google.com/file/d/1j9v1xTfMZUBLRh1zrNajDRlYXvGwIs8n/view?usp=sharing")
     }
@@ -46,6 +50,14 @@ const Me = () => {
                         <h2>Personal Information</h2>
 
                         <div className="Personal-Button">
+
+                            <button>
+                                <p className="Name-P">Region</p>
+                                <p className="Personal-P">
+                                    <Link className="LinkMe" onClick={ handleClickMyUbication }>CABA, Argentina</Link>
+                                </p>
+                            </button>
+
                             <button>
                                 <p className="Name-P">My Resume</p>
                                 <p className="Personal-P">
@@ -53,14 +65,7 @@ const Me = () => {
                                     <Link className="LinkMe" onClick={ handleClickMyResumeEsp }>Spanish</Link>
                                 </p>
                             </button>
-                    
-                            <button>
-                                <p className="Name-P">Region</p>
-                                <p className="Personal-P">
-                                    CABA, Argentina
-                                </p>
-                            </button>
-                    
+                                       
                             <button onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>
                                 <p className="Name-P">Email</p>
                                 <p className="Personal-P-Link">
