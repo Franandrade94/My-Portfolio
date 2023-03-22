@@ -18,7 +18,7 @@
     color: rgb(255, 187, 0);
 }
 
-.contacts p:hover {
+.contacts p{
     color: rgb(255, 255, 255);
     text-decoration:underline;
 }
