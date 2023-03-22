@@ -62,7 +62,8 @@
 
 .Name{
     color: rgb(255, 187, 0);
-    display: inline-block 
+    display: inline-block;
+    font-size: 42px;
 }
 
 .Info{
@@ -122,7 +123,7 @@
     }
 
     .Presentacion-Container{
-        margin-top: -6%;
+        margin-top: -7%;
         padding: 2%;
         backdrop-filter: blur(1rem);
         width: 100%;
@@ -134,6 +135,12 @@
         color: rgb(255, 255, 255);
         font-size: 54px;
         text-align: left;
+    }
+
+    .Name{
+        color: rgb(255, 187, 0);
+        display: inline-block;
+        font-size: 70px;
     }
     
     .redes{
