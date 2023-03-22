@@ -6,9 +6,9 @@ const Experience = () => {
     return(
         <div className="MyExperience" id="experiences">
             <div className="Experience-Container">
-                <h1>My Experiences</h1>
+                <h1 data-aos="fade-left">My Experiences</h1>
                 <div className="All-Experiences">
-                    <div className="Experiences">
+                    <div className="Experiences" data-aos="fade-right">
                         <h2>2022-2023</h2>
                         <div>
                             <h3>Henry FullStack Developer</h3>
@@ -31,7 +31,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="Experiences">
+                    <div className="Experiences" data-aos="fade-left">
                         <h2>2021-Today</h2>
                         <div>
                             <h3>Freelance WebDeveloper Design</h3>
@@ -52,7 +52,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="Experiences">
+                    <div className="Experiences" data-aos="fade-right">
                         <h2>2018-2021</h2>
                         <div>
                             <h3>Administrative Employee at LiqueedS.A.</h3>
@@ -69,7 +69,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="Experiences">
+                    <div className="Experiences" data-aos="fade-left">
                         <h2>2017-2018</h2>
                         <div>
                             <h3>Freelance Graphic Designer</h3>
@@ -84,7 +84,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="Experiences">
+                    <div className="Experiences" data-aos="fade-right">
                         <h2>2013-2017</h2>
                         <div>
                             <h3>Dental Assistant at Dr. Marcelo Carta Office</h3>

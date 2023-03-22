@@ -18,7 +18,7 @@ const Contact = () => {
 
     return(
         <footer className="contact-Container" id="contacto">
-            <div className="All-Contact">
+            <div className="All-Contact" data-aos="fade-right">
                 
                 <div className="MyContact">
                     

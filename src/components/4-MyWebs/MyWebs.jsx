@@ -36,7 +36,8 @@ class MyWebs extends Component {
     return (
       <div className="Project-All" id="projects">
         <div className="Project-Container ">
-          <h2 className="Project-Title">My Projects</h2>
+          <h2 className="Project-Title" data-aos="fade-right">My Projects</h2>
+          <div data-aos="fade-left" >
           <Slider {...settings}>
             <div>
               <Bonita />
@@ -51,6 +52,7 @@ class MyWebs extends Component {
               <Pokemon />
             </div>
           </Slider>
+          </div>
         </div>
       </div>
     );

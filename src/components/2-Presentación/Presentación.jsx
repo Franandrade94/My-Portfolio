@@ -1,11 +1,16 @@
 import "./presentacion.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { IoLogoWhatsapp, IoLogoGoogle } from "react-icons/io5";
 import { IoLogoLinkedin , IoLogoGithub} from "react-icons/io";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Presentacion = () => {
 
+    useEffect( () => {
+        Aos.init({ duration: 2000});
+    }, []);
     
     const handleClickWhatsapp = () => {
         window.open("https://wa.me/5491156073772?text=Hello%20Francisco.%20How%20are%20you?%20I%20saw%20your%20personal%20page%20and%20I%20would%20like%20to%20get%20in%20touch%20with%20you.%20Thank%20you%20very%20much!%20")
@@ -22,7 +27,7 @@ const Presentacion = () => {
 
 
     return(
-        <div>
+        <div data-aos="fade-right">
         <div className="Portfolio-Container">
             {/* <button className="Welcome">Welcome to My Portfolio</button> */}
             <div className="GetInTouch-Position">

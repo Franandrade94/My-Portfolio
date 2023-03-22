@@ -13,6 +13,7 @@
 }
 .Project-Title{
     margin-top: 1%;
+    margin-bottom: 4%;
     text-align: center;
     color: rgb(255, 187, 0);
     font-size: 32px;
@@ -46,6 +47,7 @@
     .Project-Title{
         color: rgb(255, 187, 0);
         font-size: 45px;
+        margin-bottom: 0;
     }
 
     .Projects-Card{

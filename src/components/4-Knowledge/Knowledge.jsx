@@ -11,25 +11,25 @@ const Knowledge = () => {
         <div className="Knowledge-All" id="Knowledge">
             <div className="Knowledge-Container">
                 
-                <div className="Knowledge-Title">
+                <div className="Knowledge-Title" data-aos="fade-left">
                     <h2>My Knowledge</h2>
                 </div>
 
                 <div className="Knowledge-IT">
                     
-                    <div className="Front-Card">
+                    <div className="Front-Card" data-aos="fade-right">
                         <FrontEnd/>
                     </div>
 
-                    <div className="Back-Card">
+                    <div className="Back-Card" data-aos="fade-left">
                         <BackEnd/>
                     </div>
                     
-                    <div className="Other-Card">
+                    <div className="Other-Card" data-aos="fade-right">
                         <OtherKnowledge/>
                     </div>
 
-                    <div className="Languages-Card">
+                    <div className="Languages-Card" data-aos="fade-left">
                         <Languages/>
                     </div>
                 </div>

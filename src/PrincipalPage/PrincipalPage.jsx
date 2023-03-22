@@ -9,6 +9,7 @@ import MyExperiences from "../pages/7-MyExperiences/MyExperiences";
 import ContactPage from "../pages/8-Contact/ContactPage";
 
 const PrincipalPage = () => {
+
     return (
         <div className="principalPage">
             <Home/>

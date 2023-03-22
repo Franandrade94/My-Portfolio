@@ -5,11 +5,11 @@ const CoursesComponent = () => {
     return(
         <div className="MyCourses" id="courses">
             <div className="Courses-Container">
-                <h1>My Courses</h1>
+                <h1 data-aos="fade-left">My Courses</h1>
 
                 <div className="All-Courses">
 
-                    <div className="It-Courses">
+                    <div className="It-Courses" data-aos="fade-right">
                         <h2 className="IT">It Courses</h2>
                         <div className="Course-2021">
                             <h2>2021</h2>
@@ -45,7 +45,7 @@ const CoursesComponent = () => {
                         </div>
                     </div>
 
-                    <div className="Other-Courses">
+                    <div className="Other-Courses" data-aos="fade-left">
                         <h2 className="IT">Other Courses</h2>
                         <div className="Course-2019">
 
