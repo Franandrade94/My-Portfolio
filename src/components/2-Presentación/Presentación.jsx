@@ -28,56 +28,60 @@ const Presentacion = () => {
 
     return(
         <div data-aos="fade-right">
-        <div className="Portfolio-Container">
-            {/* <button className="Welcome">Welcome to My Portfolio</button> */}
-            <div className="GetInTouch-Position">
-                <button className="GetInTouch" onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>Get In Touch</button>
-            </div>
-            
-            <div className="Presentacion-Container">
-                <div>
-                    <h1 className="presentacion">Hi! I'm <p className="Name">Francisco Andrade</p> <br/>FullStack Developer</h1>
+            <div className="Portfolio-Container">
+                {/* <button className="Welcome">Welcome to My Portfolio</button> */}
+                <div className="GetInTouch-Position">
+                    <button className="GetInTouch" onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>Get In Touch</button>
                 </div>
-                <div>
-                    { window.innerWidth <= 790 ? 
-                        (<p className="Info">
+            
+                <div className="Presentacion-Container">
+                    <div>
+                        <h1 className="presentacion">Hi! I'm 
+                            <br/>
+                            <p className="Name">Francisco Andrade</p> 
+                            <br/>FullStack Developer
+                        </h1>
+                    </div>
+                    <div>
+                        { window.innerWidth <= 790 ? 
+                            (<p className="Info">
+                                Front-end design-oriented and visual material creation since 2022.
+                                <br/><br/>
+                                | Javascript | Front -end | React |
+                                <br/>
+                                | Redux | HTML | CSS | 
+                                <br/>
+                                | Back-end | Node.Js | Sequelize | 
+                                <br/>
+                                | SQL | Express | Git
+                        </p>) : (
+                        <p className="Info">
                             Front-end design-oriented and visual material creation since 2022.
                             <br/><br/>
-                            | Javascript | Front -end | React |
-                            <br/>
-                            | Redux | HTML | CSS | 
-                            <br/>
-                            | Back-end | Node.Js | Sequelize | 
-                            <br/>
-                            | SQL | Express | Git
-                    </p>) : (
-                    <p className="Info">
-                        Front-end design-oriented and visual material creation since 2022.
-                        <br/><br/>
-                        | Javascript | Front -end | React | Redux | HTML | CSS | Back-end | Node.Js | Sequelize | SQL | Express | Git
-                    </p>
-                    )
-                    }   
+                            | Javascript | Front -end | React | Redux | HTML | CSS | Back-end | Node.Js | Sequelize | SQL | Express | Git
+                        </p>
+                        )
+                        }   
+                    </div>
+                    <div className="redes">
+                        <Link onClick={handleClickWhatsapp}>
+                            <IoLogoWhatsapp className="icon-contact"/>
+                        </Link>
+
+                        <Link onClick={handleClickLinkedIn}>
+                            <IoLogoLinkedin className="icon-contact"/>
+                        </Link>
+
+                        <Link onClick={handleClickGitHub}>
+                            <IoLogoGithub className="icon-contact"/>
+                        </Link>
+
+                        <Link onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>
+                            <IoLogoGoogle className="icon-contact"/>
+                        </Link>
+                    </div>
                 </div>
             </div>
-        </div>
-            <footer className="redes">
-                <Link onClick={handleClickWhatsapp}>
-                    <IoLogoWhatsapp className="icon-contact"/>
-                </Link>
-
-                <Link onClick={handleClickLinkedIn}>
-                    <IoLogoLinkedin className="icon-contact"/>
-                </Link>
-
-                <Link onClick={handleClickGitHub}>
-                    <IoLogoGithub className="icon-contact"/>
-                </Link>
-
-                <Link onClick={() => window.location = 'mailto:franandrade15994@gmail.com'}>
-                    <IoLogoGoogle className="icon-contact"/>
-                </Link>
-            </footer>
         </div>
     )
 };
