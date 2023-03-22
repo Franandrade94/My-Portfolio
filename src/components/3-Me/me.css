@@ -1,5 +1,6 @@
 .Me-All{
     padding-top: 4%;
+    text-align: center;
 }
 
 .Me-Container{
@@ -27,7 +28,6 @@ text-align: center;
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
-    text-align: left;
     color: rgb(255, 255, 255);
     font-size: 16px;
 }
