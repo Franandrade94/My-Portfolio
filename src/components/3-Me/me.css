@@ -64,7 +64,7 @@ text-align: center;
 }
 
 .Personal-Button button{
-    border-radius: 50px;
+    border-radius: 25px;
     padding: 0;
     font-size: 17px;
     font-weight: bold;
@@ -155,7 +155,7 @@ text-align: center;
     }
     
     .Personal-Button button{
-        border-radius: 100rem;
+        border-radius: 30px;
         padding: 0;
         font-size: 20px;
         font-weight: bold;
