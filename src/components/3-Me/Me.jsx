@@ -20,7 +20,7 @@ const Me = () => {
     }
 
     const handleClickMyResumeEsp =() => {
-        window.open("https://drive.google.com/file/d/1VLL3gPDHzVanASpnN157SpKJHaRBYmLo/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/1G6Qz84p9nvxbldC92yEPobk79hp90K5h/view?usp=sharing")
     }
 
     const handleClickWhatsapp = () => {
