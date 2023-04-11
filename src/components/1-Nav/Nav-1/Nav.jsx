@@ -11,6 +11,9 @@ const Nav = () => {
     const [ clicked, setClicked ] = useState(false);
     const [currentSection, setCurrentSection] = useState("Home");
 
+
+    //---------- NAVBAR SECTION INDICATOR ----------
+
     useEffect(() => {
         const handleScroll = () => {
           const homeSection = document.getElementById("Home");
@@ -62,6 +65,8 @@ const Nav = () => {
           window.removeEventListener("scroll", handleScroll);
         };
       }, []);
+
+    //---------- SCROLL TO ----------
 
     const handleClick = () => {
       setClicked(!clicked)
