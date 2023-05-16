@@ -4,7 +4,7 @@ import { IoLogoGoogle } from "react-icons/io5";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiAdobe, SiMicrosoftoffice } from "react-icons/si";
 import { RiLightbulbLine } from "react-icons/ri";
-import { BiWorld } from "react-icons/bi";
+import { BsGit } from "react-icons/bs";
 
 
 
@@ -22,6 +22,11 @@ const OtherKnowledge = () => {
                     </div>
 
                     <div className="Other-Knowledge">
+                        <BsGit className="Other-icon"/>
+                        <p>Git</p>
+                    </div>
+
+                    <div className="Other-Knowledge">
                         <IoLogoGoogle className="Other-icon"/>
                         <p>Google INC tools</p>
                     </div>
@@ -29,11 +34,6 @@ const OtherKnowledge = () => {
                     <div className="Other-Knowledge">
                         <SiAdobe className="Other-icon"/>
                         <p>Adobe Suite</p>
-                    </div>
-
-                    <div className="Other-Knowledge">
-                        <SiMicrosoftoffice className="Other-icon"/>
-                        <p>Microsoft Office Suite</p>
                     </div>
 
                 </div>

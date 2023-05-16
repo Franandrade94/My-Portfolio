@@ -15,19 +15,8 @@ const Languages = () => {
                     <div className="Language-Knowledge">
                         <RiEnglishInput className="icon"/>
                         <p>English</p>
-                    </div>
-
-                    <div className="Language-Knowledge">
-                        <BiWorld className="icon"/>
-                        <p> French</p>
-                    </div>
-
-                    <div className="Language-Knowledge">
+                        <br/>
                         <p>EF Set C1(Advanced)</p>
-                    </div>
-
-                    <div className="Language-Knowledge">
-                        <p>Basic</p>
                     </div>
 
                 </div>

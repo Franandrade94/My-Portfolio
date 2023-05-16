@@ -1,7 +1,7 @@
 .contact-Container{
  color: white;
  background-color:  rgb(23, 27, 44);
- padding-top: 20%;
+ padding-top: 7%;
  padding-bottom: 2%;
 }
 
@@ -9,9 +9,13 @@
     margin-left: 5%;
 }
 
+.All-Contact h1 {
+    margin-bottom: 2%;
+}
 
 .contacts{
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .contacts h3{
@@ -27,17 +31,22 @@
     .contact-Container{
         color: white;
         background-color:  rgb(23, 27, 44);
-        padding-top: 7%;
+        padding-top: 3%;
         padding-bottom: 1%;
        }
        
        .All-Contact{
            margin-left: 5%;
        }
+
+       .All-Contact h1 {
+        margin-bottom: 3%;
+    }
        
        
        .contacts{
            margin-bottom: 2%;
+           margin-left: 2%;
        }
        
        .contacts h3{

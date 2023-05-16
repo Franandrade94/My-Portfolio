@@ -18,8 +18,11 @@ const Contact = () => {
 
     return(
         <footer className="contact-Container" id="contacto">
+            
             <div className="All-Contact" data-aos="fade-right">
                 
+                <h1>Contact</h1>
+
                 <div className="MyContact">
                     
                     <div className="contacts" onClick={handleClickLinkedIn}>

@@ -11,8 +11,9 @@
     padding-bottom: 7%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 00%;
-    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0%;
+    top: auto;
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10%; 
 }
 
