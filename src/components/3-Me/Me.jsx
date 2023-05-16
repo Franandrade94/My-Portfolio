@@ -16,11 +16,7 @@ const Me = () => {
     }
 
     const handleClickMyResumeIngles =() => {
-        window.open("https://drive.google.com/file/d/1j9v1xTfMZUBLRh1zrNajDRlYXvGwIs8n/view?usp=sharing")
-    }
-
-    const handleClickMyResumeEsp =() => {
-        window.open("https://drive.google.com/file/d/1G6Qz84p9nvxbldC92yEPobk79hp90K5h/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/1Uv4AzRWlcJiVz-h38UIf-NvcC0ty72eW/view?usp=sharing")
     }
 
     const handleClickWhatsapp = () => {
@@ -43,11 +39,13 @@ const Me = () => {
                     <h2 data-aos="fade-left">About Me</h2>
                 
                     <p data-aos="fade-right">
-                        Lover of new technologies and continuous learning, I am seeking job opportunities
-                        that will allow me to deepen my professional career in the IT world.
+                        I have a deep passion for emerging technologies and thrive on seeking new challenges that allow me to continuously advance and evolve my career in the dynamic world of technology.
                         <br/><br/>
-                        I highlight my responsibility, proactivity, and ease of adapting to all circumstances, as
-                        well as my great capacity for teamwork.
+                        My proactive and adaptable nature, coupled with a strong sense of responsibility,
+                        makes me an ideal candidate for any team. 
+                        <br/><br/>
+                        My ability to work effectively in diverse teams and adapt to new situations seamlessly sets
+                        me apart from others in the field.
                     </p>
                 </div>
 
@@ -68,7 +66,6 @@ const Me = () => {
                                 <p className="Name-P">My Resume</p>
                                 <p className="Personal-P">
                                     <Link className="LinkMe" onClick={ handleClickMyResumeIngles }>English</Link>
-                                    <Link className="LinkMe" onClick={ handleClickMyResumeEsp }>Spanish</Link>
                                 </p>
                             </button>
                                        
