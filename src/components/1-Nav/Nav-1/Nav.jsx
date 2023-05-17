@@ -176,8 +176,8 @@ const Nav = () => {
                       <a onClick={handleClickAboutMe2}> About Me </a>
                       <a onClick={handleClickKnowledge2}> Knowledge </a>
                       <a onClick={handleClickProjects2}>Projects</a>
-                      <a onClick={handleClickCourses2}>Courses</a>
                       <a onClick={handleClickExperiences2}>Experience</a>
+                      <a onClick={handleClickCourses2}>Courses</a>
                       <a onClick={handleClickContacto2}> Contact </a>
                     </div>      
                         ) : (
