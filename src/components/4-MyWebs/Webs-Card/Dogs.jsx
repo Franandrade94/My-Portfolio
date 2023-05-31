@@ -22,7 +22,7 @@ const Dogs = () => {
                     <div className="React-Player-div">
                         <ReactPlayer
 
-                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125560/ack7qjgb0uw7lkle3giu.mp4"
+                            url="https://youtu.be/bIz84Z-tNMM"
                             controls
                             width="100%"
                             height="100%"

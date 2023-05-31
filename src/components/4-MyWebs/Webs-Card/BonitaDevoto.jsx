@@ -26,7 +26,7 @@ const BonitaDevoto = () => {
                     <div className="React-Player-div">
                         <ReactPlayer
 
-                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125535/rzxaxbs1lg7yqyatqwe0.mp4"
+                            url="https://youtu.be/I8UuF4X6bTM"
                             controls
                             width="100%"
                             height="100%"

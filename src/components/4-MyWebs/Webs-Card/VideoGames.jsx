@@ -20,7 +20,7 @@ const VideoGames = () => {
                 <div className="Card-Container">
                     <div className="React-Player-div">
                         <ReactPlayer
-                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125547/tmhuga9ko0ah5vpsmhdb.mp4"
+                            url="https://youtu.be/HshKzBN_7Rk"
                             controls
                             width="100%"
                             height="100%"

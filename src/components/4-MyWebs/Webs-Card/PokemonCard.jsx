@@ -22,7 +22,7 @@ const Pokemon = () => {
                     <div className="React-Player-div">
                         <ReactPlayer
 
-                            url="https://res.cloudinary.com/diw3vl6dr/video/upload/v1679125545/umlbnu7gmswtxrxbpwnn.mp4"
+                            url="https://youtu.be/jWA9eHfboiA"
                             controls
                             width="100%"
                             height="100%"
