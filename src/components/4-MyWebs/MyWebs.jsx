@@ -14,11 +14,11 @@ class MyWebs extends Component {
       dots: true,
       arrows: false,
       infinite: true,
-      speed: 1000,
+      speed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 790,
