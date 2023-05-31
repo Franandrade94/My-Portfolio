@@ -4,6 +4,7 @@ import Dogs from "./Webs-Card/Dogs";
 import Bonita from "./Webs-Card/BonitaDevoto";
 import Pokemon from "./Webs-Card/PokemonCard";
 import Videogames from "./Webs-Card/VideoGames";
+import Gsa from "./Webs-Card/Gsa"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -50,6 +51,9 @@ class MyWebs extends Component {
             </div>
             <div>
               <Pokemon />
+            </div>
+            <div>
+              <Gsa />
             </div>
           </Slider>
           </div>
