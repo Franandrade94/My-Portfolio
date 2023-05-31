@@ -41,6 +41,9 @@ class MyWebs extends Component {
           <div data-aos="fade-left" >
           <Slider {...settings}>
             <div>
+              <Gsa />
+            </div>
+            <div>
               <Bonita />
             </div>
             <div>
@@ -51,9 +54,6 @@ class MyWebs extends Component {
             </div>
             <div>
               <Pokemon />
-            </div>
-            <div>
-              <Gsa />
             </div>
           </Slider>
           </div>
