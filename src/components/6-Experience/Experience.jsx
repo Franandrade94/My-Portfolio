@@ -11,6 +11,20 @@ const Experience = () => {
                     
                     <div className="Experiences" data-aos="fade-right">
                         <h2>2021-Today</h2>
+
+                        <div>
+                            <h3>Full-Stack Web Developer - Front-End Focus</h3>
+                            <p>
+                                Currently employed at ConvolutionAI as a full-stack web developer, with a primary focus on front-end development using technologies such as React, Redux, CSS, and HTML.
+                                <br/><br/>
+                                •  Collaborate closely with the design team to implement intuitive and visually appealing user interfaces, ensuring a seamless user experience.
+                                <br/><br/>
+                                • Contributed to the development of multiple high-performance web applications, employing agile methodologies and best development practices.
+                                <br/><br/>
+                                • Maintain a constant focus on staying up-to-date with the latest trends and advancements in web development, enabling the application of best practices and the most current technologies in my projects.
+                            </p>
+                        </div>
+                        
                         <div>
                             <h3>Freelance WebDeveloper Design</h3>
                             <p>
