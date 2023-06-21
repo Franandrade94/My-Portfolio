@@ -25,6 +25,8 @@ const Experience = () => {
                             </p>
                         </div>
                         
+                        <br/>
+
                         <div>
                             <h3>Freelance WebDeveloper Design</h3>
                             <p>
