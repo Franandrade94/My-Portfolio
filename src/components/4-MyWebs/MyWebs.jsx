@@ -5,6 +5,7 @@ import Bonita from "./Webs-Card/BonitaDevoto";
 import Pokemon from "./Webs-Card/PokemonCard";
 import Videogames from "./Webs-Card/VideoGames";
 import Gsa from "./Webs-Card/Gsa"
+import ConvolutionAi from "./Webs-Card/ConvolutionAi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -40,6 +41,10 @@ class MyWebs extends Component {
           <h2 className="Project-Title" data-aos="fade-right">My Projects</h2>
           <div data-aos="fade-left" >
           <Slider {...settings}>
+            
+            <div>
+              <ConvolutionAi />
+            </div>
             <div>
               <Gsa />
             </div>
