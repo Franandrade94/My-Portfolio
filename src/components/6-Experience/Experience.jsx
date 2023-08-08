@@ -9,8 +9,8 @@ const Experience = () => {
                 <h1 data-aos="fade-left">My Experiences</h1>
                 <div className="All-Experiences">
                     
-                    <div className="Experiences" data-aos="fade-right">
-                        <h2>2021-Today</h2>
+                    <div className="Experiences" data-aos="fade-left">
+                        <h2>2023-Today</h2>
 
                         <div>
                             <h3>Full-Stack Web Developer - Front-End Focus</h3>
@@ -24,8 +24,11 @@ const Experience = () => {
                                 • Maintain a constant focus on staying up-to-date with the latest trends and advancements in web development, enabling the application of best practices and the most current technologies in my projects.
                             </p>
                         </div>
-                        
-                        <br/>
+                    </div>
+
+
+                    <div className="Experiences" data-aos="fade-right">
+                        <h2>2021-Today</h2>
 
                         <div>
                             <h3>Freelance WebDeveloper Design</h3>

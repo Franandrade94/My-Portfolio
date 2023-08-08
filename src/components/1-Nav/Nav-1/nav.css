@@ -3,8 +3,12 @@
    text-align: center;
 }
 
+a{
+   cursor: pointer;
+}
 
 a.current {
    border-bottom: solid 2px rgb(255, 255, 255);
+   cursor: pointer;
  }
  
